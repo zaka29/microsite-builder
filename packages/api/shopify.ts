@@ -1,12 +1,17 @@
 import { gql, GraphQLClient } from "graphql-request";
 
-type ProductsResponse = {
+export type ProductsResponse = {
   products: {
     edges: {
       node: {
         id: string;
         title: string;
         handle: string;
+        description: string;
+        featuredImage: {
+          url: string;
+          altText: string;
+        };
         images: {
           edges: {
             node: {
@@ -19,16 +24,15 @@ type ProductsResponse = {
   };
 };
 
-const shopifyClient = new GraphQLClient(
-  process.env.SHOPIFY_STOREFRONT_API_URL!,
-  {
-    headers: {
-      "X-Shopify-Storefront-Access-Token":
-        process.env.SHOPIFY_STOREFRONT_ACCESS_TOKEN!,
-      "Content-Type": "application/json",
-    },
+const endpoint = `https://${process.env.NEXT_PUBLIC_SHOPIFY_STORE_DOMAIN}/api/2025-10/graphql.json`;
+
+const shopifyClient = new GraphQLClient(endpoint, {
+  headers: {
+    "X-Shopify-Storefront-Access-Token":
+      process.env.SHOPIFY_STOREFRONT_ACCESS_TOKEN!,
+    "Content-Type": "application/json",
   },
-);
+});
 
 export const getProducts = async () => {
   const query = gql`
