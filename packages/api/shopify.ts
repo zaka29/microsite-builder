@@ -21,7 +21,7 @@ export type ProductsResponse = {
         };
       };
     }[];
-  };
+  };´
 };
 
 const endpoint = `https://${process.env.NEXT_PUBLIC_SHOPIFY_STORE_DOMAIN}/api/2025-10/graphql.json`;

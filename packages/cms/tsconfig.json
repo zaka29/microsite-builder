@@ -2,8 +2,11 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "outDir": "dist",
-    "declaration": true, // generate .d.ts types for shared use
-    "emitDeclarationOnly": true
+    "forceConsistentCasingInFileNames": true,
+    "moduleDetection": "force",
+    "jsx": "preserve",
+    "incremental": true
   },
-  "include": ["**/*.ts"]
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
 }
