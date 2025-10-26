@@ -1,11 +1,10 @@
-
 import {defineArrayMember, defineField, defineType} from 'sanity'
 import {PackageIcon} from '@sanity/icons'
 import {getExtension} from '@sanity/asset-utils'
 import pluralize from 'pluralize-esm'
 import CollectionHiddenInput from '../../components/inputs/CollectionHidden'
 import ShopifyDocumentStatus from '../../components/media/ShopifyDocumentStatus'
-import { GROUPS } from '../../constants'
+import {GROUPS} from '../../constants'
 
 export const collectionType = defineType({
   name: 'collection',
@@ -29,13 +28,11 @@ export const collectionType = defineType({
       name: 'titleProxy',
       title: 'Title',
       type: 'proxyString',
-      options: {field: 'store.title'},
     }),
     defineField({
       name: 'slugProxy',
       title: 'Slug',
       type: 'proxyString',
-      options: {field: 'store.slug.current'},
     }),
     defineField({
       name: 'colorTheme',
