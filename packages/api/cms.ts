@@ -8,14 +8,16 @@ export const cmsClient = createClient({
 });
 
 export async function getCampaignBySlug(slug: string) {
-  return cmsClient.fetch(
-    `*[_type == "micrositeCampaign" && slug.current == $slug][0]{
+  const query = `
+    *[_type == "micrositeCampaign" && slug.current == $slug][0]{
       title,
-      description,
       heroImage,
-      "heroImageUrl": heroImage.asset->url,
-      selectedProducts
-    }`,
-    { slug },
-  );
+      description,
+      products[]{
+        shopifyProductId,
+        title
+      }
+    }
+  `;
+  return await cmsClient.fetch(query, { slug });
 }
