@@ -1,10 +1,9 @@
-
-import { CopyIcon } from '@sanity/icons'
+import {CopyIcon} from '@sanity/icons'
 import {defineField, defineType} from 'sanity'
 
 import ProductVariantHiddenInput from '../../components/inputs/ProductVariantHidden'
 import ShopifyDocumentStatus from '../../components/media/ShopifyDocumentStatus'
-import { GROUPS } from '../../constants'
+import {GROUPS} from '../../constants'
 
 export const productVariantType = defineType({
   name: 'productVariant',
@@ -29,7 +28,6 @@ export const productVariantType = defineType({
       title: 'Title',
       name: 'titleProxy',
       type: 'proxyString',
-      options: {field: 'store.title'},
     }),
     defineField({
       name: 'store',
