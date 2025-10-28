@@ -1,4 +1,5 @@
 import {defineType, defineField} from 'sanity'
+import {ShopifyProductSelector} from '../../components/ShopifyProductSelector'
 
 export const micrositeCampaign = defineType({
   name: 'micrositeCampaign',
@@ -43,12 +44,15 @@ export const micrositeCampaign = defineType({
           fields: [
             {
               name: 'shopifyProductId',
-              title: 'Shopify Product ID',
+              title: 'Shopify Product',
               type: 'string',
+              components: {
+                input: ShopifyProductSelector,
+              },
             },
             {
               name: 'title',
-              title: 'Product Title (optional override)',
+              title: 'Override Title (optional)',
               type: 'string',
             },
           ],

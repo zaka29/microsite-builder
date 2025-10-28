@@ -1,10 +1,16 @@
-import { getProducts, type ProductsResponse } from "api/shopify";
+import { getProducts, getProductsByIds } from "api/shopify";
+import { getCampaignBySlug } from "api/cms";
 import Image from "next/image";
 
 export default async function Home() {
   const products = await getProducts();
+  const campaign = await getCampaignBySlug("matcha-2025");
+  const productIds = campaign?.products?.map((p) => p.shopifyProductId) || [];
+  const campaignProducts = await getProductsByIds(productIds);
 
   console.log("products ", products);
+  console.log("campaign productIds", productIds);
+  console.log("campaign campaignProducts", campaignProducts);
 
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
