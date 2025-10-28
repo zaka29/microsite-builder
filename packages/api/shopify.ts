@@ -119,6 +119,28 @@ export async function getProductsByIds(ids: string[]) {
   return data.nodes.filter(Boolean);
 }
 
+export async function getProductsBySearch(searchTerm: string) {
+  const query = `
+    query searchProducts($query: String!) {
+      products(first: 10, query: $query) {
+        edges {
+          node {
+            id
+            title
+          }
+        }
+      }
+    }
+  `;
+  const data = await shopifyClient.request<ProductsResponse>(query, {
+    query: searchTerm,
+  });
+
+  console.log("data ", data);
+
+  return data.products.edges.map((e: any) => e.node);
+}
+
 export const createCheckoutUrl = (variantId: string) => {
   const cleanId = variantId.split("/").pop();
   return `https://${process.env.SHOPIFY_STORE_DOMAIN}/cart/${cleanId}:1`;
