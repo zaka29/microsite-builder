@@ -1,5 +1,8 @@
 import { gql, GraphQLClient } from "graphql-request";
 
+const SHOPIFY_DOMAIN = process.env.NEXT_PUBLIC_SHOPIFY_STORE_DOMAIN;
+const SHOPIFY_TOKEN = process.env.NEXT_PUBLIC_SHOPIFY_STOREFRONT_ACCESS_TOKEN;
+
 export type ProductsResponse = {
   products: {
     edges: {
@@ -43,12 +46,15 @@ export type ProductsByIdsResponse = {
   } | null>;
 };
 
-const endpoint = `https://${process.env.NEXT_PUBLIC_SHOPIFY_STORE_DOMAIN}/api/2025-10/graphql.json`;
+const endpoint = `https://${SHOPIFY_DOMAIN}/api/2025-10/graphql.json`;
+
+console.log("endpoint ", endpoint);
+
+console.log("Shopify domain:", process.env.SHOPIFY_STORE_DOMAIN);
 
 const shopifyClient = new GraphQLClient(endpoint, {
   headers: {
-    "X-Shopify-Storefront-Access-Token":
-      process.env.SHOPIFY_STOREFRONT_ACCESS_TOKEN!,
+    "X-Shopify-Storefront-Access-Token": SHOPIFY_TOKEN,
     "Content-Type": "application/json",
   },
 });
