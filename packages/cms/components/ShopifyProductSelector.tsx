@@ -8,6 +8,8 @@ type ShopifyProductSelectorProps = {
   onChange: (patch: any) => void
 }
 
+console.log('Shopify domain:', process.env.SHOPIFY_STORE_DOMAIN)
+
 export function ShopifyProductSelector({value, onChange}: ShopifyProductSelectorProps) {
   const [searchTerm, setSearchTerm] = useState('')
   const [results, setResults] = useState<ProductsResponse['products']['edges']>([])
@@ -60,16 +62,16 @@ export function ShopifyProductSelector({value, onChange}: ShopifyProductSelector
             <Stack space={2}>
               {results.map((p) => (
                 <Card
-                  key={p.id}
+                  key={p.node.id}
                   padding={3}
                   radius={2}
                   shadow={1}
                   onClick={() => handleSelect(p)}
                   style={{cursor: 'pointer'}}
                 >
-                  <Text weight="semibold">{p.title}</Text>
+                  <Text weight="semibold">{p.node.title}</Text>
                   <Text size={1} muted>
-                    {p.id}
+                    {p.node.id}
                   </Text>
                 </Card>
               ))}
