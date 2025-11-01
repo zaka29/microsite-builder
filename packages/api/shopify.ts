@@ -1,34 +1,35 @@
-// import dotenv from "dotenv";
-// import path from "path";
 import { gql, GraphQLClient } from "graphql-request";
 
-// dotenv.config({ path: path.resolve(process.cwd(), ".env.local") });
+const SHOPIFY_DOMAIN =
+  process.env.NEXT_PUBLIC_SHOPIFY_STORE_DOMAIN ||
+  process.env.SANITY_STUDIO_SHOPIFY_STORE_DOMAIN;
 
-const SHOPIFY_DOMAIN = process.env.NEXT_PUBLIC_SHOPIFY_STORE_DOMAIN;
-const SHOPIFY_TOKEN = process.env.NEXT_PUBLIC_STOREFRONT_ACCESS_TOKEN;
+const SHOPIFY_TOKEN =
+  process.env.NEXT_PUBLIC_STOREFRONT_ACCESS_TOKEN ||
+  process.env.SANITY_STUDIO_SHOPIFY_STOREFRONT_ACCESS_TOKEN;
 
-const SANITY_SHOPIFY_DOMAIN = process.env.SANITY_STUDIO_SHOPIFY_STORE_DOMAIN;
+export type EdgeNode = {
+  id: string;
+  title: string;
+  handle: string;
+  description: string;
+  featuredImage: {
+    url: string;
+    altText: string;
+  };
+  images: {
+    edges: {
+      node: {
+        src: string;
+      };
+    }[];
+  };
+};
 
 export type ProductsResponse = {
   products: {
     edges: {
-      node: {
-        id: string;
-        title: string;
-        handle: string;
-        description: string;
-        featuredImage: {
-          url: string;
-          altText: string;
-        };
-        images: {
-          edges: {
-            node: {
-              src: string;
-            };
-          }[];
-        };
-      };
+      node: EdgeNode;
     }[];
   };
 };
@@ -53,10 +54,6 @@ export type ProductsByIdsResponse = {
 };
 
 const endpoint = `https://${SHOPIFY_DOMAIN}/api/2025-10/graphql.json`;
-
-console.log("endpoint ", endpoint);
-console.log("sanity ", SANITY_SHOPIFY_DOMAIN);
-console.log("Shopify domain:", process.env.SHOPIFY_STORE_DOMAIN);
 
 const shopifyClient = new GraphQLClient(endpoint, {
   headers: {
