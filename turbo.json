@@ -3,19 +3,11 @@
   "tasks": {
     "dev": {
       "cache": false,
-      "persistent": true,
-      "env": [
-        "NEXT_PUBLIC_SHOPIFY_STORE_DOMAIN",
-        "NEXT_PUBLIC_SHOPIFY_STOREFRONT_ACCESS_TOKEN"
-      ]
+      "persistent": true
     },
     "build": {
       "dependsOn": ["^build"],
-      "outputs": [".next/**", "dist/**"],
-      "env": [
-        "NEXT_PUBLIC_SHOPIFY_STORE_DOMAIN",
-        "NEXT_PUBLIC_SHOPIFY_STOREFRONT_ACCESS_TOKEN"
-      ]
+      "outputs": [".next/**", "dist/**"]
     }
   }
 }

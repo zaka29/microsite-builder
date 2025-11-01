@@ -1,28 +1,35 @@
 import { gql, GraphQLClient } from "graphql-request";
 
-const SHOPIFY_DOMAIN = process.env.NEXT_PUBLIC_SHOPIFY_STORE_DOMAIN;
-const SHOPIFY_TOKEN = process.env.NEXT_PUBLIC_SHOPIFY_STOREFRONT_ACCESS_TOKEN;
+const SHOPIFY_DOMAIN =
+  process.env.NEXT_PUBLIC_SHOPIFY_STORE_DOMAIN ||
+  process.env.SANITY_STUDIO_SHOPIFY_STORE_DOMAIN;
+
+const SHOPIFY_TOKEN =
+  process.env.NEXT_PUBLIC_STOREFRONT_ACCESS_TOKEN ||
+  process.env.SANITY_STUDIO_SHOPIFY_STOREFRONT_ACCESS_TOKEN;
+
+export type EdgeNode = {
+  id: string;
+  title: string;
+  handle: string;
+  description: string;
+  featuredImage: {
+    url: string;
+    altText: string;
+  };
+  images: {
+    edges: {
+      node: {
+        src: string;
+      };
+    }[];
+  };
+};
 
 export type ProductsResponse = {
   products: {
     edges: {
-      node: {
-        id: string;
-        title: string;
-        handle: string;
-        description: string;
-        featuredImage: {
-          url: string;
-          altText: string;
-        };
-        images: {
-          edges: {
-            node: {
-              src: string;
-            };
-          }[];
-        };
-      };
+      node: EdgeNode;
     }[];
   };
 };
@@ -47,10 +54,6 @@ export type ProductsByIdsResponse = {
 };
 
 const endpoint = `https://${SHOPIFY_DOMAIN}/api/2025-10/graphql.json`;
-
-console.log("endpoint ", endpoint);
-
-console.log("Shopify domain:", process.env.SHOPIFY_STORE_DOMAIN);
 
 const shopifyClient = new GraphQLClient(endpoint, {
   headers: {

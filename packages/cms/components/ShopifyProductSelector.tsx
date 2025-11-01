@@ -1,18 +1,16 @@
 import {useState} from 'react'
 import {set, unset} from 'sanity'
 import {Card, TextInput, Button, Stack, Text} from '@sanity/ui'
-import {getProductsBySearch, ProductsResponse} from '../../api/shopify'
+import {getProductsBySearch, EdgeNode} from '../../api/shopify'
 
 type ShopifyProductSelectorProps = {
   value?: {shopifyProductId: string; title?: string}
   onChange: (patch: any) => void
 }
 
-console.log('Shopify domain:', process.env.SHOPIFY_STORE_DOMAIN)
-
 export function ShopifyProductSelector({value, onChange}: ShopifyProductSelectorProps) {
   const [searchTerm, setSearchTerm] = useState('')
-  const [results, setResults] = useState<ProductsResponse['products']['edges']>([])
+  const [results, setResults] = useState<EdgeNode[]>([])
   const [loading, setLoading] = useState(false)
 
   async function handleSearch() {
@@ -30,6 +28,8 @@ export function ShopifyProductSelector({value, onChange}: ShopifyProductSelector
       }),
     )
   }
+
+  console.log('results ', results)
 
   return (
     <Stack space={3}>
@@ -62,16 +62,16 @@ export function ShopifyProductSelector({value, onChange}: ShopifyProductSelector
             <Stack space={2}>
               {results.map((p) => (
                 <Card
-                  key={p.node.id}
+                  key={p.id}
                   padding={3}
                   radius={2}
                   shadow={1}
                   onClick={() => handleSelect(p)}
                   style={{cursor: 'pointer'}}
                 >
-                  <Text weight="semibold">{p.node.title}</Text>
+                  <Text weight="semibold">{p.title}</Text>
                   <Text size={1} muted>
-                    {p.node.id}
+                    {p.id}
                   </Text>
                 </Card>
               ))}

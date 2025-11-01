@@ -1,0 +1,1888 @@
+
+> microsite-template@0.1.0 dev
+> next dev --turbopack
+
+[1G[0K   [1m[38;2;173;127;168m▲ Next.js 15.5.5[39m[22m (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.20.4:3000
+   - Environments: .env.local
+
+ [32m[1m✓[22m[39m Starting...
+ [32m[1m✓[22m[39m Ready in 1044ms
+ [37m[1m○[22m[39m Compiling / ...
+ [32m[1m✓[22m[39m Compiled / in 2.1s
+endpoint  https://ojatea.myshopify.com/api/2025-10/graphql.json
+sanity env variable  [90mundefined[39m
+Shopify domain: ojatea.myshopify.com
+products  [
+  {
+    id: [32m'gid://shopify/Product/8551293747412'[39m,
+    title: [32m'Organic Sencha Yabukita, 50g'[39m,
+    handle: [32m'sencha'[39m,
+    description: [32m'This Organic Sencha Yabukita green tea switched to plant-based fertilisers this year, bringing out a naturally soothing taste. Grown in a rich forest ecosystem, it has a subtle sweetness like fava beans and a hint of enoki mushroom flavour. It’s perfect for cold brewing in the fresh tea season, while a warm brew in late summer highlights its mellow, matured taste. Cultivated without pesticides and chemical fertilisers. Cultivar: Yabukita Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-yabukita-ojatea-408233.jpg?v=1749434744'[39m,
+      altText: [32m'Organic Sencha Yabukita - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8554743202004'[39m,
+    title: [32m'Organic Yabukita Gyokuro Green Tea, 30g'[39m,
+    handle: [32m'gyokuro-okunotsuyu'[39m,
+    description: [32m'This Organic Yabukita Gyokuro tea is crafted from 45-year-old Yabukita tea trees, shaded for 21 days before harvest to enhance its rich umami flavour. It’s the first harvest of the year 2024, offering a truly special and fresh tea experience. Cultivar: Yabukita Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-yabukita-gyokuro-gyokuro-green-tea-ojatea-398628.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Yabukita Gyokuro - gyokuro green tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8554744938708'[39m,
+    title: [32m'Organic Hojicha Bocha - Hojicha tea, 200g Bag'[39m,
+    handle: [32m'hojicha-bocha'[39m,
+    description: [32m'Organic Hojicha Bocha cultivated without pesticides and chemical fertilisers. This one-of-a-kind roasted tea is made from the thick stems of tea plants picked in spring before they bloom and in autumn after the summer harvest wraps up. Roasted over an open flame, it carries a subtle floral aroma beneath its smoky scent. Naturally caffeine-free and packed with vitamins and potassium, it’s a versatile tea that tastes amazing whether you enjoy it hot or cold—perfect for sipping after a meal. Cultivar: Yabukita Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-hojicha-bocha-hojicha-tea-ojatea-779006.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Hojicha Bocha - Hojicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8554749264084'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Midori'[39m,
+    handle: [32m'matcha-todo-mukashi'[39m,
+    description: [32m'This matcha blends Sayamamidori and Saemidori cultivars, grown without pesticides or chemical fertilisers. With a refreshing citrusy note, it’s perfect for everyday sipping. Store in the fridge and enjoy within 2 weeks of opening for the best flavour. Cultivar: Sayamamidori, Saemidori Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-midori-ojatea-661141.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Midori - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8558365212884'[39m,
+    title: [32m'Organic Sencha Yabukita Museshi, 50g'[39m,
+    handle: [32m'sencha-yabukita-musehi'[39m,
+    description: [32m'Yabukita cultivar green tea makes up nearly 80% of Japan’s green tea production, but this Organic Sencha Yabukita Museshi is grown without fertilisers, allowing its natural character to shine. By refining the soil and cultivation methods, its typically strong flavour is softened, revealing delicate jasmine-like floral notes and a rich, fruity depth. A hint of creamy sweetness adds a fresh new take on this classic variety. Cultivar: Yabukita Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-yabukita-museshi-ojatea-887695.jpg?v=1749434745'[39m,
+      altText: [32m'Organic Sencha Yabukita Museshi - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692216266964'[39m,
+    title: [32m'Organic Sencha Asatsuyu, 50g'[39m,
+    handle: [32m'sencha-asatsuyu'[39m,
+    description: [32m'This is the first harvest of the rare Organic Asatsuyu green tea cultivar from Uji, a tea that has nearly vanished from the market. Its fresh, fruity notes—reminiscent of muscat—shine through with every sip. Known as "natural Gyokuro," Asatsuyu is prized for its delicate sweetness and soothing aroma. Cultivated without pesticides and chemical fertilisers Cultivar: Asatsuyu Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-asatsuyu-ojatea-840578.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Sencha Asatsuyu - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692218331348'[39m,
+    title: [32m'Organic Sencha Okumidori Kabuse Musehi, 50g'[39m,
+    handle: [32m'sencha-okumidori-kabuse-musehi'[39m,
+    description: [32m'Organic Sencha Okumidori green tea stands out with its deep green leaves and bold tea flavor. Its cultivation has been expanding in recent years, and when grown under shade, it develops a unique Kabuse aroma. The result is a rich, long-lasting flavor with notes of white grape and a hint of nuttiness. Cultivated without pesticides and fertilisers. Cultivar: Okumidori Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-okumidori-kabuse-musehi-ojatea-396256.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Sencha Okumidori Kabuse Musehi - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692220854484'[39m,
+    title: [32m'Organic Kamairi Zairai - Kamairicha Green Tea, 50g'[39m,
+    handle: [32m'kamairi-zairai'[39m,
+    description: [32m'This tea comes from wild seedlings that have been growing in Gokase for nearly 90 years. It’s a tea-producing area 600–700 meters above sea level, where pan-roasted teas have been a tradition since the Edo period (1603–1868). The leaves are roasted in an iron pan to stop oxidation, giving it a dry, toasty vibe. You’ll catch hints of freshly baked bread in the aroma, a caramelised flavour, and a spicy kick of pepper in the aftertaste. Cultivar: Native species of Gokase in Miyazaki Prefecture Origin: Gokase, Miyazaki Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-kamairi-zairai-kamairicha-tea-ojatea-180064.jpg?v=1749434720'[39m,
+      altText: [32m'Organic Kamairi Zairai - Kamairicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692222984404'[39m,
+    title: [32m'Organic Kamairi Kanayamidori - Kamairicha green tea, 50g'[39m,
+    handle: [32m'kamairi-kanaya-midori'[39m,
+    description: [32m'This tea is crafted from the Yabukita and Shizuoka native varieties, offering unique flavour profile. With notes of freshly cooked rice, warm tortillas, and a subtle edamame-like sweetness. It strikes a perfect balance between rich roasted depth and gentle sweetness. Cultivar: Kanayamidori Origin: Gokase, Miyazaki Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-kamairi-minekaori-kamairicha-tea-ojatea-902727.jpg?v=1752371712'[39m,
+      altText: [32m'Organic Kamairi Minekaori - Kamairicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692223639764'[39m,
+    title: [32m'Organic Kamairi Minekaori - Kamairicha Green Tea, 50g'[39m,
+    handle: [32m'kamairi-minekaori'[39m,
+    description: [32m'The Minekaori cultivar, originally meant for gyokuro, carries the classic flavor of Yabukita. This year’s tea has a smooth, rounded taste with notes of corn and white rice. It finishes with a bold, spicy kick like hot pepper and a touch of herbal flavor that balances its sweetness. Its savory, wheat-like taste pairs perfectly with Western dishes—try it with buttered toast for a cozy morning treat! Cultivar: Minekaori Origin: Gokase, Miyazaki Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-kamairi-minekaori-kamairicha-tea-ojatea-902727.jpg?v=1752371712'[39m,
+      altText: [32m'Organic Kamairi Minekaori - Kamairicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692224196820'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Asatsuyu'[39m,
+    handle: [32m'matcha-asa'[39m,
+    description: [32m'A generous amount of rare Asatsuyu leaves is blended with Sayamamidori leaves to create something truly special. The umami-rich Asatsuyu balances out the acidity of organic matcha, making it perfect for special moments. To keep its delicate flavour at its best, store it in the fridge and enjoy it within 2 weeks after opening! Cultivar: Asatsuyu, Sayamamidori Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-asatsuyu-ojatea-388750.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Asatsuyu - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692224622804'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Samidori'[39m,
+    handle: [32m'matcha-samidori'[39m,
+    description: [32m'Samidori matcha, a classic Uji tea variety, was selected from Kyoto tea fields between 1926 and 1945 and has become a favorite ever since. It offers a fresh flavor with a hint of strawberry and a rich, steamed bean-like taste. The umami is bold but balanced with an elegantly. To keep its delicate flavour at its best, store it in the fridge and enjoy it within two weeks after opening! Cultivar: Samidori Origin: Uji, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-samidori-ojatea-737574.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Samidori Fron - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8835835298004'[39m,
+    title: [32m'Organic Sencha Green Tea Bags Selection'[39m,
+    handle: [32m'sencha-tea-bag-selection'[39m,
+    description: [32m'Made with organically grown Sencha green, this exclusive blend comes in tea bags crafted from 100% natural, biodegradable fibre—so you get a clean, toxin-free brew every time. CULTIVARS: Yabukita, Okumidori, Meiryoku ORIGIN: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-tea-bag-selection-ojatea-366876.jpg?v=1749434719'[39m,
+      altText: [32m'Organic Sencha Tea Bag Selection Front - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8867791831252'[39m,
+    title: [32m'Ceremonial Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'ceremonial-matcha'[39m,
+    description: [32m'Smooth umami with notes of scallion and soy milk, balanced by a hint of bitterness. Pairs beautifully with fresh pastries and dried fruits. Cultivars: Samidori, Okumidori Origin: Uji, Kyoto'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/ceremonial-matcha-ojatea-3335976.jpg?v=1752368712'[39m,
+      altText: [32m'Ceremonial matcha - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8870206800084'[39m,
+    title: [32m'Superior Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'superior-matcha'[39m,
+    description: [32m'Vibrant and smooth with umami depth. Ideal for creamy matcha lattes or enhancing desserts. A great choice for your daily treat. Cultivar: Yabukita Origin: Uji, Kyoto prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/superior-matcha-ojatea-4744269.jpg?v=1752028008'[39m,
+      altText: [32m'Superior Matcha - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8873113747668'[39m,
+    title: [32m'Premium Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'premium-matcha'[39m,
+    description: [32m'This premium stone-milled matcha blends bold umami finishing with a gentle bitterness. Perfectly balanced to shine through matcha latte. Enjoy with fresh pastries or dried fruits. Cultivar: Okumidori, Yabukita Origin: Uji, Kyoto prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/premium-matcha-ojatea-2331696.jpg?v=1752193921'[39m,
+      altText: [32m'Premium matcha - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8875256414420'[39m,
+    title: [32m'Culinary Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'culinary-matcha'[39m,
+    description: [32m'Bold, earthy flavour perfect for lattes, smoothies, and cooking. Cultivar: Yabukita Origin: Uji, Kyoto prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/culinary-matcha-limited-edition-ojatea-7344498.jpg?v=1752442391'[39m,
+      altText: [32m'Culinary Matcha (limited edition) - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8875264901332'[39m,
+    title: [32m'Hojicha Powder Dark Roast - 100g Bag'[39m,
+    handle: [32m'hojicha-powder-dark-roast'[39m,
+    description: [32m'With a naturally low in caffeine, even lower than light roast it’s perfect for cozy lattes, desserts, and baked goods. Origin: Uji, Kyoto prefecture Flavour: Deep smoky, nutty Caffeine: Very low'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/hojicha-powder-dark-roast-limited-edition-ojatea-6220026.jpg?v=1752442393'[39m,
+      altText: [32m'Hojicha Powder Dark Roast (limited edition) - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8875266080980'[39m,
+    title: [32m'Hojicha Powder Light Roast - 100g Bag'[39m,
+    handle: [32m'hojicha-powder-light-roast'[39m,
+    description: [32m'This hojicha tea powder is gently roasted with a balance of green tea brightness and subtle smokiness. It’s great for iced drinks and delicate desserts.'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/hojicha-powder-light-roast-limited-edition-ojatea-8686796.jpg?v=1752442391'[39m,
+      altText: [32m'Hojicha Powder Light Roast (limited edition) - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  }
+]
+campaign productIds [ [32m'8692224622804'[39m ]
+campaign campaignProducts [
+  {
+    id: [32m'gid://shopify/Product/8692224622804'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Samidori'[39m,
+    handle: [32m'matcha-samidori'[39m,
+    description: [32m'Samidori matcha, a classic Uji tea variety, was selected from Kyoto tea fields between 1926 and 1945 and has become a favorite ever since. It offers a fresh flavor with a hint of strawberry and a rich, steamed bean-like taste. The umami is bold but balanced with an elegantly. To keep its delicate flavour at its best, store it in the fridge and enjoy it within two weeks after opening! Cultivar: Samidori Origin: Uji, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-samidori-ojatea-737574.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Samidori Fron - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  }
+]
+ GET / [32m200[39m in 4505ms
+ [32m[1m✓[22m[39m Compiled /favicon.ico in 197ms
+ GET /favicon.ico?favicon.0b3bf435.ico [32m200[39m in 461ms
+ [32m[1m✓[22m[39m Compiled /_not-found/page in 182ms
+ GET /sw.js [33m404[39m in 254ms
+ [32m[1m✓[22m[39m Compiled / in 20ms
+endpoint  https://ojatea.myshopify.com/api/2025-10/graphql.json
+sanity env variable  [90mundefined[39m
+Shopify domain: ojatea.myshopify.com
+products  [
+  {
+    id: [32m'gid://shopify/Product/8551293747412'[39m,
+    title: [32m'Organic Sencha Yabukita, 50g'[39m,
+    handle: [32m'sencha'[39m,
+    description: [32m'This Organic Sencha Yabukita green tea switched to plant-based fertilisers this year, bringing out a naturally soothing taste. Grown in a rich forest ecosystem, it has a subtle sweetness like fava beans and a hint of enoki mushroom flavour. It’s perfect for cold brewing in the fresh tea season, while a warm brew in late summer highlights its mellow, matured taste. Cultivated without pesticides and chemical fertilisers. Cultivar: Yabukita Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-yabukita-ojatea-408233.jpg?v=1749434744'[39m,
+      altText: [32m'Organic Sencha Yabukita - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8554743202004'[39m,
+    title: [32m'Organic Yabukita Gyokuro Green Tea, 30g'[39m,
+    handle: [32m'gyokuro-okunotsuyu'[39m,
+    description: [32m'This Organic Yabukita Gyokuro tea is crafted from 45-year-old Yabukita tea trees, shaded for 21 days before harvest to enhance its rich umami flavour. It’s the first harvest of the year 2024, offering a truly special and fresh tea experience. Cultivar: Yabukita Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-yabukita-gyokuro-gyokuro-green-tea-ojatea-398628.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Yabukita Gyokuro - gyokuro green tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8554744938708'[39m,
+    title: [32m'Organic Hojicha Bocha - Hojicha tea, 200g Bag'[39m,
+    handle: [32m'hojicha-bocha'[39m,
+    description: [32m'Organic Hojicha Bocha cultivated without pesticides and chemical fertilisers. This one-of-a-kind roasted tea is made from the thick stems of tea plants picked in spring before they bloom and in autumn after the summer harvest wraps up. Roasted over an open flame, it carries a subtle floral aroma beneath its smoky scent. Naturally caffeine-free and packed with vitamins and potassium, it’s a versatile tea that tastes amazing whether you enjoy it hot or cold—perfect for sipping after a meal. Cultivar: Yabukita Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-hojicha-bocha-hojicha-tea-ojatea-779006.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Hojicha Bocha - Hojicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8554749264084'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Midori'[39m,
+    handle: [32m'matcha-todo-mukashi'[39m,
+    description: [32m'This matcha blends Sayamamidori and Saemidori cultivars, grown without pesticides or chemical fertilisers. With a refreshing citrusy note, it’s perfect for everyday sipping. Store in the fridge and enjoy within 2 weeks of opening for the best flavour. Cultivar: Sayamamidori, Saemidori Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-midori-ojatea-661141.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Midori - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8558365212884'[39m,
+    title: [32m'Organic Sencha Yabukita Museshi, 50g'[39m,
+    handle: [32m'sencha-yabukita-musehi'[39m,
+    description: [32m'Yabukita cultivar green tea makes up nearly 80% of Japan’s green tea production, but this Organic Sencha Yabukita Museshi is grown without fertilisers, allowing its natural character to shine. By refining the soil and cultivation methods, its typically strong flavour is softened, revealing delicate jasmine-like floral notes and a rich, fruity depth. A hint of creamy sweetness adds a fresh new take on this classic variety. Cultivar: Yabukita Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-yabukita-museshi-ojatea-887695.jpg?v=1749434745'[39m,
+      altText: [32m'Organic Sencha Yabukita Museshi - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692216266964'[39m,
+    title: [32m'Organic Sencha Asatsuyu, 50g'[39m,
+    handle: [32m'sencha-asatsuyu'[39m,
+    description: [32m'This is the first harvest of the rare Organic Asatsuyu green tea cultivar from Uji, a tea that has nearly vanished from the market. Its fresh, fruity notes—reminiscent of muscat—shine through with every sip. Known as "natural Gyokuro," Asatsuyu is prized for its delicate sweetness and soothing aroma. Cultivated without pesticides and chemical fertilisers Cultivar: Asatsuyu Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-asatsuyu-ojatea-840578.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Sencha Asatsuyu - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692218331348'[39m,
+    title: [32m'Organic Sencha Okumidori Kabuse Musehi, 50g'[39m,
+    handle: [32m'sencha-okumidori-kabuse-musehi'[39m,
+    description: [32m'Organic Sencha Okumidori green tea stands out with its deep green leaves and bold tea flavor. Its cultivation has been expanding in recent years, and when grown under shade, it develops a unique Kabuse aroma. The result is a rich, long-lasting flavor with notes of white grape and a hint of nuttiness. Cultivated without pesticides and fertilisers. Cultivar: Okumidori Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-okumidori-kabuse-musehi-ojatea-396256.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Sencha Okumidori Kabuse Musehi - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692220854484'[39m,
+    title: [32m'Organic Kamairi Zairai - Kamairicha Green Tea, 50g'[39m,
+    handle: [32m'kamairi-zairai'[39m,
+    description: [32m'This tea comes from wild seedlings that have been growing in Gokase for nearly 90 years. It’s a tea-producing area 600–700 meters above sea level, where pan-roasted teas have been a tradition since the Edo period (1603–1868). The leaves are roasted in an iron pan to stop oxidation, giving it a dry, toasty vibe. You’ll catch hints of freshly baked bread in the aroma, a caramelised flavour, and a spicy kick of pepper in the aftertaste. Cultivar: Native species of Gokase in Miyazaki Prefecture Origin: Gokase, Miyazaki Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-kamairi-zairai-kamairicha-tea-ojatea-180064.jpg?v=1749434720'[39m,
+      altText: [32m'Organic Kamairi Zairai - Kamairicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692222984404'[39m,
+    title: [32m'Organic Kamairi Kanayamidori - Kamairicha green tea, 50g'[39m,
+    handle: [32m'kamairi-kanaya-midori'[39m,
+    description: [32m'This tea is crafted from the Yabukita and Shizuoka native varieties, offering unique flavour profile. With notes of freshly cooked rice, warm tortillas, and a subtle edamame-like sweetness. It strikes a perfect balance between rich roasted depth and gentle sweetness. Cultivar: Kanayamidori Origin: Gokase, Miyazaki Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-kamairi-minekaori-kamairicha-tea-ojatea-902727.jpg?v=1752371712'[39m,
+      altText: [32m'Organic Kamairi Minekaori - Kamairicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692223639764'[39m,
+    title: [32m'Organic Kamairi Minekaori - Kamairicha Green Tea, 50g'[39m,
+    handle: [32m'kamairi-minekaori'[39m,
+    description: [32m'The Minekaori cultivar, originally meant for gyokuro, carries the classic flavor of Yabukita. This year’s tea has a smooth, rounded taste with notes of corn and white rice. It finishes with a bold, spicy kick like hot pepper and a touch of herbal flavor that balances its sweetness. Its savory, wheat-like taste pairs perfectly with Western dishes—try it with buttered toast for a cozy morning treat! Cultivar: Minekaori Origin: Gokase, Miyazaki Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-kamairi-minekaori-kamairicha-tea-ojatea-902727.jpg?v=1752371712'[39m,
+      altText: [32m'Organic Kamairi Minekaori - Kamairicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692224196820'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Asatsuyu'[39m,
+    handle: [32m'matcha-asa'[39m,
+    description: [32m'A generous amount of rare Asatsuyu leaves is blended with Sayamamidori leaves to create something truly special. The umami-rich Asatsuyu balances out the acidity of organic matcha, making it perfect for special moments. To keep its delicate flavour at its best, store it in the fridge and enjoy it within 2 weeks after opening! Cultivar: Asatsuyu, Sayamamidori Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-asatsuyu-ojatea-388750.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Asatsuyu - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692224622804'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Samidori'[39m,
+    handle: [32m'matcha-samidori'[39m,
+    description: [32m'Samidori matcha, a classic Uji tea variety, was selected from Kyoto tea fields between 1926 and 1945 and has become a favorite ever since. It offers a fresh flavor with a hint of strawberry and a rich, steamed bean-like taste. The umami is bold but balanced with an elegantly. To keep its delicate flavour at its best, store it in the fridge and enjoy it within two weeks after opening! Cultivar: Samidori Origin: Uji, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-samidori-ojatea-737574.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Samidori Fron - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8835835298004'[39m,
+    title: [32m'Organic Sencha Green Tea Bags Selection'[39m,
+    handle: [32m'sencha-tea-bag-selection'[39m,
+    description: [32m'Made with organically grown Sencha green, this exclusive blend comes in tea bags crafted from 100% natural, biodegradable fibre—so you get a clean, toxin-free brew every time. CULTIVARS: Yabukita, Okumidori, Meiryoku ORIGIN: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-tea-bag-selection-ojatea-366876.jpg?v=1749434719'[39m,
+      altText: [32m'Organic Sencha Tea Bag Selection Front - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8867791831252'[39m,
+    title: [32m'Ceremonial Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'ceremonial-matcha'[39m,
+    description: [32m'Smooth umami with notes of scallion and soy milk, balanced by a hint of bitterness. Pairs beautifully with fresh pastries and dried fruits. Cultivars: Samidori, Okumidori Origin: Uji, Kyoto'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/ceremonial-matcha-ojatea-3335976.jpg?v=1752368712'[39m,
+      altText: [32m'Ceremonial matcha - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8870206800084'[39m,
+    title: [32m'Superior Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'superior-matcha'[39m,
+    description: [32m'Vibrant and smooth with umami depth. Ideal for creamy matcha lattes or enhancing desserts. A great choice for your daily treat. Cultivar: Yabukita Origin: Uji, Kyoto prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/superior-matcha-ojatea-4744269.jpg?v=1752028008'[39m,
+      altText: [32m'Superior Matcha - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8873113747668'[39m,
+    title: [32m'Premium Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'premium-matcha'[39m,
+    description: [32m'This premium stone-milled matcha blends bold umami finishing with a gentle bitterness. Perfectly balanced to shine through matcha latte. Enjoy with fresh pastries or dried fruits. Cultivar: Okumidori, Yabukita Origin: Uji, Kyoto prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/premium-matcha-ojatea-2331696.jpg?v=1752193921'[39m,
+      altText: [32m'Premium matcha - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8875256414420'[39m,
+    title: [32m'Culinary Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'culinary-matcha'[39m,
+    description: [32m'Bold, earthy flavour perfect for lattes, smoothies, and cooking. Cultivar: Yabukita Origin: Uji, Kyoto prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/culinary-matcha-limited-edition-ojatea-7344498.jpg?v=1752442391'[39m,
+      altText: [32m'Culinary Matcha (limited edition) - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8875264901332'[39m,
+    title: [32m'Hojicha Powder Dark Roast - 100g Bag'[39m,
+    handle: [32m'hojicha-powder-dark-roast'[39m,
+    description: [32m'With a naturally low in caffeine, even lower than light roast it’s perfect for cozy lattes, desserts, and baked goods. Origin: Uji, Kyoto prefecture Flavour: Deep smoky, nutty Caffeine: Very low'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/hojicha-powder-dark-roast-limited-edition-ojatea-6220026.jpg?v=1752442393'[39m,
+      altText: [32m'Hojicha Powder Dark Roast (limited edition) - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8875266080980'[39m,
+    title: [32m'Hojicha Powder Light Roast - 100g Bag'[39m,
+    handle: [32m'hojicha-powder-light-roast'[39m,
+    description: [32m'This hojicha tea powder is gently roasted with a balance of green tea brightness and subtle smokiness. It’s great for iced drinks and delicate desserts.'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/hojicha-powder-light-roast-limited-edition-ojatea-8686796.jpg?v=1752442391'[39m,
+      altText: [32m'Hojicha Powder Light Roast (limited edition) - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  }
+]
+campaign productIds [ [32m'8692224622804'[39m ]
+campaign campaignProducts [
+  {
+    id: [32m'gid://shopify/Product/8692224622804'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Samidori'[39m,
+    handle: [32m'matcha-samidori'[39m,
+    description: [32m'Samidori matcha, a classic Uji tea variety, was selected from Kyoto tea fields between 1926 and 1945 and has become a favorite ever since. It offers a fresh flavor with a hint of strawberry and a rich, steamed bean-like taste. The umami is bold but balanced with an elegantly. To keep its delicate flavour at its best, store it in the fridge and enjoy it within two weeks after opening! Cultivar: Samidori Origin: Uji, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-samidori-ojatea-737574.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Samidori Fron - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  }
+]
+ GET / [32m200[39m in 168ms
+ [32m[1m✓[22m[39m Compiled / in 30ms
+endpoint  https://ojatea.myshopify.com/api/2025-10/graphql.json
+sanity env variable  [90mundefined[39m
+Shopify domain: ojatea.myshopify.com
+products  [
+  {
+    id: [32m'gid://shopify/Product/8551293747412'[39m,
+    title: [32m'Organic Sencha Yabukita, 50g'[39m,
+    handle: [32m'sencha'[39m,
+    description: [32m'This Organic Sencha Yabukita green tea switched to plant-based fertilisers this year, bringing out a naturally soothing taste. Grown in a rich forest ecosystem, it has a subtle sweetness like fava beans and a hint of enoki mushroom flavour. It’s perfect for cold brewing in the fresh tea season, while a warm brew in late summer highlights its mellow, matured taste. Cultivated without pesticides and chemical fertilisers. Cultivar: Yabukita Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-yabukita-ojatea-408233.jpg?v=1749434744'[39m,
+      altText: [32m'Organic Sencha Yabukita - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8554743202004'[39m,
+    title: [32m'Organic Yabukita Gyokuro Green Tea, 30g'[39m,
+    handle: [32m'gyokuro-okunotsuyu'[39m,
+    description: [32m'This Organic Yabukita Gyokuro tea is crafted from 45-year-old Yabukita tea trees, shaded for 21 days before harvest to enhance its rich umami flavour. It’s the first harvest of the year 2024, offering a truly special and fresh tea experience. Cultivar: Yabukita Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-yabukita-gyokuro-gyokuro-green-tea-ojatea-398628.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Yabukita Gyokuro - gyokuro green tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8554744938708'[39m,
+    title: [32m'Organic Hojicha Bocha - Hojicha tea, 200g Bag'[39m,
+    handle: [32m'hojicha-bocha'[39m,
+    description: [32m'Organic Hojicha Bocha cultivated without pesticides and chemical fertilisers. This one-of-a-kind roasted tea is made from the thick stems of tea plants picked in spring before they bloom and in autumn after the summer harvest wraps up. Roasted over an open flame, it carries a subtle floral aroma beneath its smoky scent. Naturally caffeine-free and packed with vitamins and potassium, it’s a versatile tea that tastes amazing whether you enjoy it hot or cold—perfect for sipping after a meal. Cultivar: Yabukita Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-hojicha-bocha-hojicha-tea-ojatea-779006.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Hojicha Bocha - Hojicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8554749264084'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Midori'[39m,
+    handle: [32m'matcha-todo-mukashi'[39m,
+    description: [32m'This matcha blends Sayamamidori and Saemidori cultivars, grown without pesticides or chemical fertilisers. With a refreshing citrusy note, it’s perfect for everyday sipping. Store in the fridge and enjoy within 2 weeks of opening for the best flavour. Cultivar: Sayamamidori, Saemidori Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-midori-ojatea-661141.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Midori - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8558365212884'[39m,
+    title: [32m'Organic Sencha Yabukita Museshi, 50g'[39m,
+    handle: [32m'sencha-yabukita-musehi'[39m,
+    description: [32m'Yabukita cultivar green tea makes up nearly 80% of Japan’s green tea production, but this Organic Sencha Yabukita Museshi is grown without fertilisers, allowing its natural character to shine. By refining the soil and cultivation methods, its typically strong flavour is softened, revealing delicate jasmine-like floral notes and a rich, fruity depth. A hint of creamy sweetness adds a fresh new take on this classic variety. Cultivar: Yabukita Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-yabukita-museshi-ojatea-887695.jpg?v=1749434745'[39m,
+      altText: [32m'Organic Sencha Yabukita Museshi - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692216266964'[39m,
+    title: [32m'Organic Sencha Asatsuyu, 50g'[39m,
+    handle: [32m'sencha-asatsuyu'[39m,
+    description: [32m'This is the first harvest of the rare Organic Asatsuyu green tea cultivar from Uji, a tea that has nearly vanished from the market. Its fresh, fruity notes—reminiscent of muscat—shine through with every sip. Known as "natural Gyokuro," Asatsuyu is prized for its delicate sweetness and soothing aroma. Cultivated without pesticides and chemical fertilisers Cultivar: Asatsuyu Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-asatsuyu-ojatea-840578.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Sencha Asatsuyu - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692218331348'[39m,
+    title: [32m'Organic Sencha Okumidori Kabuse Musehi, 50g'[39m,
+    handle: [32m'sencha-okumidori-kabuse-musehi'[39m,
+    description: [32m'Organic Sencha Okumidori green tea stands out with its deep green leaves and bold tea flavor. Its cultivation has been expanding in recent years, and when grown under shade, it develops a unique Kabuse aroma. The result is a rich, long-lasting flavor with notes of white grape and a hint of nuttiness. Cultivated without pesticides and fertilisers. Cultivar: Okumidori Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-okumidori-kabuse-musehi-ojatea-396256.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Sencha Okumidori Kabuse Musehi - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692220854484'[39m,
+    title: [32m'Organic Kamairi Zairai - Kamairicha Green Tea, 50g'[39m,
+    handle: [32m'kamairi-zairai'[39m,
+    description: [32m'This tea comes from wild seedlings that have been growing in Gokase for nearly 90 years. It’s a tea-producing area 600–700 meters above sea level, where pan-roasted teas have been a tradition since the Edo period (1603–1868). The leaves are roasted in an iron pan to stop oxidation, giving it a dry, toasty vibe. You’ll catch hints of freshly baked bread in the aroma, a caramelised flavour, and a spicy kick of pepper in the aftertaste. Cultivar: Native species of Gokase in Miyazaki Prefecture Origin: Gokase, Miyazaki Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-kamairi-zairai-kamairicha-tea-ojatea-180064.jpg?v=1749434720'[39m,
+      altText: [32m'Organic Kamairi Zairai - Kamairicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692222984404'[39m,
+    title: [32m'Organic Kamairi Kanayamidori - Kamairicha green tea, 50g'[39m,
+    handle: [32m'kamairi-kanaya-midori'[39m,
+    description: [32m'This tea is crafted from the Yabukita and Shizuoka native varieties, offering unique flavour profile. With notes of freshly cooked rice, warm tortillas, and a subtle edamame-like sweetness. It strikes a perfect balance between rich roasted depth and gentle sweetness. Cultivar: Kanayamidori Origin: Gokase, Miyazaki Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-kamairi-minekaori-kamairicha-tea-ojatea-902727.jpg?v=1752371712'[39m,
+      altText: [32m'Organic Kamairi Minekaori - Kamairicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692223639764'[39m,
+    title: [32m'Organic Kamairi Minekaori - Kamairicha Green Tea, 50g'[39m,
+    handle: [32m'kamairi-minekaori'[39m,
+    description: [32m'The Minekaori cultivar, originally meant for gyokuro, carries the classic flavor of Yabukita. This year’s tea has a smooth, rounded taste with notes of corn and white rice. It finishes with a bold, spicy kick like hot pepper and a touch of herbal flavor that balances its sweetness. Its savory, wheat-like taste pairs perfectly with Western dishes—try it with buttered toast for a cozy morning treat! Cultivar: Minekaori Origin: Gokase, Miyazaki Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-kamairi-minekaori-kamairicha-tea-ojatea-902727.jpg?v=1752371712'[39m,
+      altText: [32m'Organic Kamairi Minekaori - Kamairicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692224196820'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Asatsuyu'[39m,
+    handle: [32m'matcha-asa'[39m,
+    description: [32m'A generous amount of rare Asatsuyu leaves is blended with Sayamamidori leaves to create something truly special. The umami-rich Asatsuyu balances out the acidity of organic matcha, making it perfect for special moments. To keep its delicate flavour at its best, store it in the fridge and enjoy it within 2 weeks after opening! Cultivar: Asatsuyu, Sayamamidori Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-asatsuyu-ojatea-388750.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Asatsuyu - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692224622804'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Samidori'[39m,
+    handle: [32m'matcha-samidori'[39m,
+    description: [32m'Samidori matcha, a classic Uji tea variety, was selected from Kyoto tea fields between 1926 and 1945 and has become a favorite ever since. It offers a fresh flavor with a hint of strawberry and a rich, steamed bean-like taste. The umami is bold but balanced with an elegantly. To keep its delicate flavour at its best, store it in the fridge and enjoy it within two weeks after opening! Cultivar: Samidori Origin: Uji, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-samidori-ojatea-737574.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Samidori Fron - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8835835298004'[39m,
+    title: [32m'Organic Sencha Green Tea Bags Selection'[39m,
+    handle: [32m'sencha-tea-bag-selection'[39m,
+    description: [32m'Made with organically grown Sencha green, this exclusive blend comes in tea bags crafted from 100% natural, biodegradable fibre—so you get a clean, toxin-free brew every time. CULTIVARS: Yabukita, Okumidori, Meiryoku ORIGIN: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-tea-bag-selection-ojatea-366876.jpg?v=1749434719'[39m,
+      altText: [32m'Organic Sencha Tea Bag Selection Front - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8867791831252'[39m,
+    title: [32m'Ceremonial Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'ceremonial-matcha'[39m,
+    description: [32m'Smooth umami with notes of scallion and soy milk, balanced by a hint of bitterness. Pairs beautifully with fresh pastries and dried fruits. Cultivars: Samidori, Okumidori Origin: Uji, Kyoto'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/ceremonial-matcha-ojatea-3335976.jpg?v=1752368712'[39m,
+      altText: [32m'Ceremonial matcha - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8870206800084'[39m,
+    title: [32m'Superior Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'superior-matcha'[39m,
+    description: [32m'Vibrant and smooth with umami depth. Ideal for creamy matcha lattes or enhancing desserts. A great choice for your daily treat. Cultivar: Yabukita Origin: Uji, Kyoto prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/superior-matcha-ojatea-4744269.jpg?v=1752028008'[39m,
+      altText: [32m'Superior Matcha - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8873113747668'[39m,
+    title: [32m'Premium Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'premium-matcha'[39m,
+    description: [32m'This premium stone-milled matcha blends bold umami finishing with a gentle bitterness. Perfectly balanced to shine through matcha latte. Enjoy with fresh pastries or dried fruits. Cultivar: Okumidori, Yabukita Origin: Uji, Kyoto prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/premium-matcha-ojatea-2331696.jpg?v=1752193921'[39m,
+      altText: [32m'Premium matcha - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8875256414420'[39m,
+    title: [32m'Culinary Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'culinary-matcha'[39m,
+    description: [32m'Bold, earthy flavour perfect for lattes, smoothies, and cooking. Cultivar: Yabukita Origin: Uji, Kyoto prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/culinary-matcha-limited-edition-ojatea-7344498.jpg?v=1752442391'[39m,
+      altText: [32m'Culinary Matcha (limited edition) - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8875264901332'[39m,
+    title: [32m'Hojicha Powder Dark Roast - 100g Bag'[39m,
+    handle: [32m'hojicha-powder-dark-roast'[39m,
+    description: [32m'With a naturally low in caffeine, even lower than light roast it’s perfect for cozy lattes, desserts, and baked goods. Origin: Uji, Kyoto prefecture Flavour: Deep smoky, nutty Caffeine: Very low'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/hojicha-powder-dark-roast-limited-edition-ojatea-6220026.jpg?v=1752442393'[39m,
+      altText: [32m'Hojicha Powder Dark Roast (limited edition) - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8875266080980'[39m,
+    title: [32m'Hojicha Powder Light Roast - 100g Bag'[39m,
+    handle: [32m'hojicha-powder-light-roast'[39m,
+    description: [32m'This hojicha tea powder is gently roasted with a balance of green tea brightness and subtle smokiness. It’s great for iced drinks and delicate desserts.'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/hojicha-powder-light-roast-limited-edition-ojatea-8686796.jpg?v=1752442391'[39m,
+      altText: [32m'Hojicha Powder Light Roast (limited edition) - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  }
+]
+campaign productIds [ [32m'8692224622804'[39m ]
+campaign campaignProducts [
+  {
+    id: [32m'gid://shopify/Product/8692224622804'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Samidori'[39m,
+    handle: [32m'matcha-samidori'[39m,
+    description: [32m'Samidori matcha, a classic Uji tea variety, was selected from Kyoto tea fields between 1926 and 1945 and has become a favorite ever since. It offers a fresh flavor with a hint of strawberry and a rich, steamed bean-like taste. The umami is bold but balanced with an elegantly. To keep its delicate flavour at its best, store it in the fridge and enjoy it within two weeks after opening! Cultivar: Samidori Origin: Uji, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-samidori-ojatea-737574.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Samidori Fron - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  }
+]
+ GET / [32m200[39m in 113ms
+ [32m[1m✓[22m[39m Compiled in 13ms
+ [32m[1m✓[22m[39m Compiled / in 27ms
+endpoint  https://ojatea.myshopify.com/api/2025-10/graphql.json
+sanity env variable  [90mundefined[39m
+Shopify domain: ojatea.myshopify.com
+products  [
+  {
+    id: [32m'gid://shopify/Product/8551293747412'[39m,
+    title: [32m'Organic Sencha Yabukita, 50g'[39m,
+    handle: [32m'sencha'[39m,
+    description: [32m'This Organic Sencha Yabukita green tea switched to plant-based fertilisers this year, bringing out a naturally soothing taste. Grown in a rich forest ecosystem, it has a subtle sweetness like fava beans and a hint of enoki mushroom flavour. It’s perfect for cold brewing in the fresh tea season, while a warm brew in late summer highlights its mellow, matured taste. Cultivated without pesticides and chemical fertilisers. Cultivar: Yabukita Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-yabukita-ojatea-408233.jpg?v=1749434744'[39m,
+      altText: [32m'Organic Sencha Yabukita - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8554743202004'[39m,
+    title: [32m'Organic Yabukita Gyokuro Green Tea, 30g'[39m,
+    handle: [32m'gyokuro-okunotsuyu'[39m,
+    description: [32m'This Organic Yabukita Gyokuro tea is crafted from 45-year-old Yabukita tea trees, shaded for 21 days before harvest to enhance its rich umami flavour. It’s the first harvest of the year 2024, offering a truly special and fresh tea experience. Cultivar: Yabukita Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-yabukita-gyokuro-gyokuro-green-tea-ojatea-398628.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Yabukita Gyokuro - gyokuro green tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8554744938708'[39m,
+    title: [32m'Organic Hojicha Bocha - Hojicha tea, 200g Bag'[39m,
+    handle: [32m'hojicha-bocha'[39m,
+    description: [32m'Organic Hojicha Bocha cultivated without pesticides and chemical fertilisers. This one-of-a-kind roasted tea is made from the thick stems of tea plants picked in spring before they bloom and in autumn after the summer harvest wraps up. Roasted over an open flame, it carries a subtle floral aroma beneath its smoky scent. Naturally caffeine-free and packed with vitamins and potassium, it’s a versatile tea that tastes amazing whether you enjoy it hot or cold—perfect for sipping after a meal. Cultivar: Yabukita Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-hojicha-bocha-hojicha-tea-ojatea-779006.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Hojicha Bocha - Hojicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8554749264084'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Midori'[39m,
+    handle: [32m'matcha-todo-mukashi'[39m,
+    description: [32m'This matcha blends Sayamamidori and Saemidori cultivars, grown without pesticides or chemical fertilisers. With a refreshing citrusy note, it’s perfect for everyday sipping. Store in the fridge and enjoy within 2 weeks of opening for the best flavour. Cultivar: Sayamamidori, Saemidori Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-midori-ojatea-661141.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Midori - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8558365212884'[39m,
+    title: [32m'Organic Sencha Yabukita Museshi, 50g'[39m,
+    handle: [32m'sencha-yabukita-musehi'[39m,
+    description: [32m'Yabukita cultivar green tea makes up nearly 80% of Japan’s green tea production, but this Organic Sencha Yabukita Museshi is grown without fertilisers, allowing its natural character to shine. By refining the soil and cultivation methods, its typically strong flavour is softened, revealing delicate jasmine-like floral notes and a rich, fruity depth. A hint of creamy sweetness adds a fresh new take on this classic variety. Cultivar: Yabukita Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-yabukita-museshi-ojatea-887695.jpg?v=1749434745'[39m,
+      altText: [32m'Organic Sencha Yabukita Museshi - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692216266964'[39m,
+    title: [32m'Organic Sencha Asatsuyu, 50g'[39m,
+    handle: [32m'sencha-asatsuyu'[39m,
+    description: [32m'This is the first harvest of the rare Organic Asatsuyu green tea cultivar from Uji, a tea that has nearly vanished from the market. Its fresh, fruity notes—reminiscent of muscat—shine through with every sip. Known as "natural Gyokuro," Asatsuyu is prized for its delicate sweetness and soothing aroma. Cultivated without pesticides and chemical fertilisers Cultivar: Asatsuyu Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-asatsuyu-ojatea-840578.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Sencha Asatsuyu - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692218331348'[39m,
+    title: [32m'Organic Sencha Okumidori Kabuse Musehi, 50g'[39m,
+    handle: [32m'sencha-okumidori-kabuse-musehi'[39m,
+    description: [32m'Organic Sencha Okumidori green tea stands out with its deep green leaves and bold tea flavor. Its cultivation has been expanding in recent years, and when grown under shade, it develops a unique Kabuse aroma. The result is a rich, long-lasting flavor with notes of white grape and a hint of nuttiness. Cultivated without pesticides and fertilisers. Cultivar: Okumidori Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-okumidori-kabuse-musehi-ojatea-396256.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Sencha Okumidori Kabuse Musehi - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692220854484'[39m,
+    title: [32m'Organic Kamairi Zairai - Kamairicha Green Tea, 50g'[39m,
+    handle: [32m'kamairi-zairai'[39m,
+    description: [32m'This tea comes from wild seedlings that have been growing in Gokase for nearly 90 years. It’s a tea-producing area 600–700 meters above sea level, where pan-roasted teas have been a tradition since the Edo period (1603–1868). The leaves are roasted in an iron pan to stop oxidation, giving it a dry, toasty vibe. You’ll catch hints of freshly baked bread in the aroma, a caramelised flavour, and a spicy kick of pepper in the aftertaste. Cultivar: Native species of Gokase in Miyazaki Prefecture Origin: Gokase, Miyazaki Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-kamairi-zairai-kamairicha-tea-ojatea-180064.jpg?v=1749434720'[39m,
+      altText: [32m'Organic Kamairi Zairai - Kamairicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692222984404'[39m,
+    title: [32m'Organic Kamairi Kanayamidori - Kamairicha green tea, 50g'[39m,
+    handle: [32m'kamairi-kanaya-midori'[39m,
+    description: [32m'This tea is crafted from the Yabukita and Shizuoka native varieties, offering unique flavour profile. With notes of freshly cooked rice, warm tortillas, and a subtle edamame-like sweetness. It strikes a perfect balance between rich roasted depth and gentle sweetness. Cultivar: Kanayamidori Origin: Gokase, Miyazaki Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-kamairi-minekaori-kamairicha-tea-ojatea-902727.jpg?v=1752371712'[39m,
+      altText: [32m'Organic Kamairi Minekaori - Kamairicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692223639764'[39m,
+    title: [32m'Organic Kamairi Minekaori - Kamairicha Green Tea, 50g'[39m,
+    handle: [32m'kamairi-minekaori'[39m,
+    description: [32m'The Minekaori cultivar, originally meant for gyokuro, carries the classic flavor of Yabukita. This year’s tea has a smooth, rounded taste with notes of corn and white rice. It finishes with a bold, spicy kick like hot pepper and a touch of herbal flavor that balances its sweetness. Its savory, wheat-like taste pairs perfectly with Western dishes—try it with buttered toast for a cozy morning treat! Cultivar: Minekaori Origin: Gokase, Miyazaki Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-kamairi-minekaori-kamairicha-tea-ojatea-902727.jpg?v=1752371712'[39m,
+      altText: [32m'Organic Kamairi Minekaori - Kamairicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692224196820'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Asatsuyu'[39m,
+    handle: [32m'matcha-asa'[39m,
+    description: [32m'A generous amount of rare Asatsuyu leaves is blended with Sayamamidori leaves to create something truly special. The umami-rich Asatsuyu balances out the acidity of organic matcha, making it perfect for special moments. To keep its delicate flavour at its best, store it in the fridge and enjoy it within 2 weeks after opening! Cultivar: Asatsuyu, Sayamamidori Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-asatsuyu-ojatea-388750.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Asatsuyu - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692224622804'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Samidori'[39m,
+    handle: [32m'matcha-samidori'[39m,
+    description: [32m'Samidori matcha, a classic Uji tea variety, was selected from Kyoto tea fields between 1926 and 1945 and has become a favorite ever since. It offers a fresh flavor with a hint of strawberry and a rich, steamed bean-like taste. The umami is bold but balanced with an elegantly. To keep its delicate flavour at its best, store it in the fridge and enjoy it within two weeks after opening! Cultivar: Samidori Origin: Uji, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-samidori-ojatea-737574.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Samidori Fron - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8835835298004'[39m,
+    title: [32m'Organic Sencha Green Tea Bags Selection'[39m,
+    handle: [32m'sencha-tea-bag-selection'[39m,
+    description: [32m'Made with organically grown Sencha green, this exclusive blend comes in tea bags crafted from 100% natural, biodegradable fibre—so you get a clean, toxin-free brew every time. CULTIVARS: Yabukita, Okumidori, Meiryoku ORIGIN: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-tea-bag-selection-ojatea-366876.jpg?v=1749434719'[39m,
+      altText: [32m'Organic Sencha Tea Bag Selection Front - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8867791831252'[39m,
+    title: [32m'Ceremonial Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'ceremonial-matcha'[39m,
+    description: [32m'Smooth umami with notes of scallion and soy milk, balanced by a hint of bitterness. Pairs beautifully with fresh pastries and dried fruits. Cultivars: Samidori, Okumidori Origin: Uji, Kyoto'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/ceremonial-matcha-ojatea-3335976.jpg?v=1752368712'[39m,
+      altText: [32m'Ceremonial matcha - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8870206800084'[39m,
+    title: [32m'Superior Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'superior-matcha'[39m,
+    description: [32m'Vibrant and smooth with umami depth. Ideal for creamy matcha lattes or enhancing desserts. A great choice for your daily treat. Cultivar: Yabukita Origin: Uji, Kyoto prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/superior-matcha-ojatea-4744269.jpg?v=1752028008'[39m,
+      altText: [32m'Superior Matcha - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8873113747668'[39m,
+    title: [32m'Premium Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'premium-matcha'[39m,
+    description: [32m'This premium stone-milled matcha blends bold umami finishing with a gentle bitterness. Perfectly balanced to shine through matcha latte. Enjoy with fresh pastries or dried fruits. Cultivar: Okumidori, Yabukita Origin: Uji, Kyoto prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/premium-matcha-ojatea-2331696.jpg?v=1752193921'[39m,
+      altText: [32m'Premium matcha - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8875256414420'[39m,
+    title: [32m'Culinary Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'culinary-matcha'[39m,
+    description: [32m'Bold, earthy flavour perfect for lattes, smoothies, and cooking. Cultivar: Yabukita Origin: Uji, Kyoto prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/culinary-matcha-limited-edition-ojatea-7344498.jpg?v=1752442391'[39m,
+      altText: [32m'Culinary Matcha (limited edition) - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8875264901332'[39m,
+    title: [32m'Hojicha Powder Dark Roast - 100g Bag'[39m,
+    handle: [32m'hojicha-powder-dark-roast'[39m,
+    description: [32m'With a naturally low in caffeine, even lower than light roast it’s perfect for cozy lattes, desserts, and baked goods. Origin: Uji, Kyoto prefecture Flavour: Deep smoky, nutty Caffeine: Very low'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/hojicha-powder-dark-roast-limited-edition-ojatea-6220026.jpg?v=1752442393'[39m,
+      altText: [32m'Hojicha Powder Dark Roast (limited edition) - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8875266080980'[39m,
+    title: [32m'Hojicha Powder Light Roast - 100g Bag'[39m,
+    handle: [32m'hojicha-powder-light-roast'[39m,
+    description: [32m'This hojicha tea powder is gently roasted with a balance of green tea brightness and subtle smokiness. It’s great for iced drinks and delicate desserts.'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/hojicha-powder-light-roast-limited-edition-ojatea-8686796.jpg?v=1752442391'[39m,
+      altText: [32m'Hojicha Powder Light Roast (limited edition) - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  }
+]
+campaign productIds [ [32m'8692224622804'[39m ]
+campaign campaignProducts [
+  {
+    id: [32m'gid://shopify/Product/8692224622804'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Samidori'[39m,
+    handle: [32m'matcha-samidori'[39m,
+    description: [32m'Samidori matcha, a classic Uji tea variety, was selected from Kyoto tea fields between 1926 and 1945 and has become a favorite ever since. It offers a fresh flavor with a hint of strawberry and a rich, steamed bean-like taste. The umami is bold but balanced with an elegantly. To keep its delicate flavour at its best, store it in the fridge and enjoy it within two weeks after opening! Cultivar: Samidori Origin: Uji, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-samidori-ojatea-737574.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Samidori Fron - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  }
+]
+ GET / [32m200[39m in 160ms
+ [32m[1m✓[22m[39m Compiled / in 22ms
+endpoint  https://ojatea.myshopify.com/api/2025-10/graphql.json
+sanity env variable domain  [90mundefined[39m
+sanity env variable token  [90mundefined[39m
+Shopify domain: ojatea.myshopify.com
+Shopify token: ca37d211cb0739544aee6a00710dba7e
+products  [
+  {
+    id: [32m'gid://shopify/Product/8551293747412'[39m,
+    title: [32m'Organic Sencha Yabukita, 50g'[39m,
+    handle: [32m'sencha'[39m,
+    description: [32m'This Organic Sencha Yabukita green tea switched to plant-based fertilisers this year, bringing out a naturally soothing taste. Grown in a rich forest ecosystem, it has a subtle sweetness like fava beans and a hint of enoki mushroom flavour. It’s perfect for cold brewing in the fresh tea season, while a warm brew in late summer highlights its mellow, matured taste. Cultivated without pesticides and chemical fertilisers. Cultivar: Yabukita Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-yabukita-ojatea-408233.jpg?v=1749434744'[39m,
+      altText: [32m'Organic Sencha Yabukita - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8554743202004'[39m,
+    title: [32m'Organic Yabukita Gyokuro Green Tea, 30g'[39m,
+    handle: [32m'gyokuro-okunotsuyu'[39m,
+    description: [32m'This Organic Yabukita Gyokuro tea is crafted from 45-year-old Yabukita tea trees, shaded for 21 days before harvest to enhance its rich umami flavour. It’s the first harvest of the year 2024, offering a truly special and fresh tea experience. Cultivar: Yabukita Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-yabukita-gyokuro-gyokuro-green-tea-ojatea-398628.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Yabukita Gyokuro - gyokuro green tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8554744938708'[39m,
+    title: [32m'Organic Hojicha Bocha - Hojicha tea, 200g Bag'[39m,
+    handle: [32m'hojicha-bocha'[39m,
+    description: [32m'Organic Hojicha Bocha cultivated without pesticides and chemical fertilisers. This one-of-a-kind roasted tea is made from the thick stems of tea plants picked in spring before they bloom and in autumn after the summer harvest wraps up. Roasted over an open flame, it carries a subtle floral aroma beneath its smoky scent. Naturally caffeine-free and packed with vitamins and potassium, it’s a versatile tea that tastes amazing whether you enjoy it hot or cold—perfect for sipping after a meal. Cultivar: Yabukita Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-hojicha-bocha-hojicha-tea-ojatea-779006.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Hojicha Bocha - Hojicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8554749264084'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Midori'[39m,
+    handle: [32m'matcha-todo-mukashi'[39m,
+    description: [32m'This matcha blends Sayamamidori and Saemidori cultivars, grown without pesticides or chemical fertilisers. With a refreshing citrusy note, it’s perfect for everyday sipping. Store in the fridge and enjoy within 2 weeks of opening for the best flavour. Cultivar: Sayamamidori, Saemidori Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-midori-ojatea-661141.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Midori - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8558365212884'[39m,
+    title: [32m'Organic Sencha Yabukita Museshi, 50g'[39m,
+    handle: [32m'sencha-yabukita-musehi'[39m,
+    description: [32m'Yabukita cultivar green tea makes up nearly 80% of Japan’s green tea production, but this Organic Sencha Yabukita Museshi is grown without fertilisers, allowing its natural character to shine. By refining the soil and cultivation methods, its typically strong flavour is softened, revealing delicate jasmine-like floral notes and a rich, fruity depth. A hint of creamy sweetness adds a fresh new take on this classic variety. Cultivar: Yabukita Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-yabukita-museshi-ojatea-887695.jpg?v=1749434745'[39m,
+      altText: [32m'Organic Sencha Yabukita Museshi - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692216266964'[39m,
+    title: [32m'Organic Sencha Asatsuyu, 50g'[39m,
+    handle: [32m'sencha-asatsuyu'[39m,
+    description: [32m'This is the first harvest of the rare Organic Asatsuyu green tea cultivar from Uji, a tea that has nearly vanished from the market. Its fresh, fruity notes—reminiscent of muscat—shine through with every sip. Known as "natural Gyokuro," Asatsuyu is prized for its delicate sweetness and soothing aroma. Cultivated without pesticides and chemical fertilisers Cultivar: Asatsuyu Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-asatsuyu-ojatea-840578.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Sencha Asatsuyu - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692218331348'[39m,
+    title: [32m'Organic Sencha Okumidori Kabuse Musehi, 50g'[39m,
+    handle: [32m'sencha-okumidori-kabuse-musehi'[39m,
+    description: [32m'Organic Sencha Okumidori green tea stands out with its deep green leaves and bold tea flavor. Its cultivation has been expanding in recent years, and when grown under shade, it develops a unique Kabuse aroma. The result is a rich, long-lasting flavor with notes of white grape and a hint of nuttiness. Cultivated without pesticides and fertilisers. Cultivar: Okumidori Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-okumidori-kabuse-musehi-ojatea-396256.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Sencha Okumidori Kabuse Musehi - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692220854484'[39m,
+    title: [32m'Organic Kamairi Zairai - Kamairicha Green Tea, 50g'[39m,
+    handle: [32m'kamairi-zairai'[39m,
+    description: [32m'This tea comes from wild seedlings that have been growing in Gokase for nearly 90 years. It’s a tea-producing area 600–700 meters above sea level, where pan-roasted teas have been a tradition since the Edo period (1603–1868). The leaves are roasted in an iron pan to stop oxidation, giving it a dry, toasty vibe. You’ll catch hints of freshly baked bread in the aroma, a caramelised flavour, and a spicy kick of pepper in the aftertaste. Cultivar: Native species of Gokase in Miyazaki Prefecture Origin: Gokase, Miyazaki Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-kamairi-zairai-kamairicha-tea-ojatea-180064.jpg?v=1749434720'[39m,
+      altText: [32m'Organic Kamairi Zairai - Kamairicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692222984404'[39m,
+    title: [32m'Organic Kamairi Kanayamidori - Kamairicha green tea, 50g'[39m,
+    handle: [32m'kamairi-kanaya-midori'[39m,
+    description: [32m'This tea is crafted from the Yabukita and Shizuoka native varieties, offering unique flavour profile. With notes of freshly cooked rice, warm tortillas, and a subtle edamame-like sweetness. It strikes a perfect balance between rich roasted depth and gentle sweetness. Cultivar: Kanayamidori Origin: Gokase, Miyazaki Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-kamairi-minekaori-kamairicha-tea-ojatea-902727.jpg?v=1752371712'[39m,
+      altText: [32m'Organic Kamairi Minekaori - Kamairicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692223639764'[39m,
+    title: [32m'Organic Kamairi Minekaori - Kamairicha Green Tea, 50g'[39m,
+    handle: [32m'kamairi-minekaori'[39m,
+    description: [32m'The Minekaori cultivar, originally meant for gyokuro, carries the classic flavor of Yabukita. This year’s tea has a smooth, rounded taste with notes of corn and white rice. It finishes with a bold, spicy kick like hot pepper and a touch of herbal flavor that balances its sweetness. Its savory, wheat-like taste pairs perfectly with Western dishes—try it with buttered toast for a cozy morning treat! Cultivar: Minekaori Origin: Gokase, Miyazaki Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-kamairi-minekaori-kamairicha-tea-ojatea-902727.jpg?v=1752371712'[39m,
+      altText: [32m'Organic Kamairi Minekaori - Kamairicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692224196820'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Asatsuyu'[39m,
+    handle: [32m'matcha-asa'[39m,
+    description: [32m'A generous amount of rare Asatsuyu leaves is blended with Sayamamidori leaves to create something truly special. The umami-rich Asatsuyu balances out the acidity of organic matcha, making it perfect for special moments. To keep its delicate flavour at its best, store it in the fridge and enjoy it within 2 weeks after opening! Cultivar: Asatsuyu, Sayamamidori Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-asatsuyu-ojatea-388750.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Asatsuyu - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692224622804'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Samidori'[39m,
+    handle: [32m'matcha-samidori'[39m,
+    description: [32m'Samidori matcha, a classic Uji tea variety, was selected from Kyoto tea fields between 1926 and 1945 and has become a favorite ever since. It offers a fresh flavor with a hint of strawberry and a rich, steamed bean-like taste. The umami is bold but balanced with an elegantly. To keep its delicate flavour at its best, store it in the fridge and enjoy it within two weeks after opening! Cultivar: Samidori Origin: Uji, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-samidori-ojatea-737574.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Samidori Fron - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8835835298004'[39m,
+    title: [32m'Organic Sencha Green Tea Bags Selection'[39m,
+    handle: [32m'sencha-tea-bag-selection'[39m,
+    description: [32m'Made with organically grown Sencha green, this exclusive blend comes in tea bags crafted from 100% natural, biodegradable fibre—so you get a clean, toxin-free brew every time. CULTIVARS: Yabukita, Okumidori, Meiryoku ORIGIN: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-tea-bag-selection-ojatea-366876.jpg?v=1749434719'[39m,
+      altText: [32m'Organic Sencha Tea Bag Selection Front - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8867791831252'[39m,
+    title: [32m'Ceremonial Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'ceremonial-matcha'[39m,
+    description: [32m'Smooth umami with notes of scallion and soy milk, balanced by a hint of bitterness. Pairs beautifully with fresh pastries and dried fruits. Cultivars: Samidori, Okumidori Origin: Uji, Kyoto'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/ceremonial-matcha-ojatea-3335976.jpg?v=1752368712'[39m,
+      altText: [32m'Ceremonial matcha - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8870206800084'[39m,
+    title: [32m'Superior Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'superior-matcha'[39m,
+    description: [32m'Vibrant and smooth with umami depth. Ideal for creamy matcha lattes or enhancing desserts. A great choice for your daily treat. Cultivar: Yabukita Origin: Uji, Kyoto prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/superior-matcha-ojatea-4744269.jpg?v=1752028008'[39m,
+      altText: [32m'Superior Matcha - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8873113747668'[39m,
+    title: [32m'Premium Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'premium-matcha'[39m,
+    description: [32m'This premium stone-milled matcha blends bold umami finishing with a gentle bitterness. Perfectly balanced to shine through matcha latte. Enjoy with fresh pastries or dried fruits. Cultivar: Okumidori, Yabukita Origin: Uji, Kyoto prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/premium-matcha-ojatea-2331696.jpg?v=1752193921'[39m,
+      altText: [32m'Premium matcha - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8875256414420'[39m,
+    title: [32m'Culinary Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'culinary-matcha'[39m,
+    description: [32m'Bold, earthy flavour perfect for lattes, smoothies, and cooking. Cultivar: Yabukita Origin: Uji, Kyoto prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/culinary-matcha-limited-edition-ojatea-7344498.jpg?v=1752442391'[39m,
+      altText: [32m'Culinary Matcha (limited edition) - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8875264901332'[39m,
+    title: [32m'Hojicha Powder Dark Roast - 100g Bag'[39m,
+    handle: [32m'hojicha-powder-dark-roast'[39m,
+    description: [32m'With a naturally low in caffeine, even lower than light roast it’s perfect for cozy lattes, desserts, and baked goods. Origin: Uji, Kyoto prefecture Flavour: Deep smoky, nutty Caffeine: Very low'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/hojicha-powder-dark-roast-limited-edition-ojatea-6220026.jpg?v=1752442393'[39m,
+      altText: [32m'Hojicha Powder Dark Roast (limited edition) - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8875266080980'[39m,
+    title: [32m'Hojicha Powder Light Roast - 100g Bag'[39m,
+    handle: [32m'hojicha-powder-light-roast'[39m,
+    description: [32m'This hojicha tea powder is gently roasted with a balance of green tea brightness and subtle smokiness. It’s great for iced drinks and delicate desserts.'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/hojicha-powder-light-roast-limited-edition-ojatea-8686796.jpg?v=1752442391'[39m,
+      altText: [32m'Hojicha Powder Light Roast (limited edition) - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  }
+]
+campaign productIds [ [32m'8692224622804'[39m ]
+campaign campaignProducts [
+  {
+    id: [32m'gid://shopify/Product/8692224622804'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Samidori'[39m,
+    handle: [32m'matcha-samidori'[39m,
+    description: [32m'Samidori matcha, a classic Uji tea variety, was selected from Kyoto tea fields between 1926 and 1945 and has become a favorite ever since. It offers a fresh flavor with a hint of strawberry and a rich, steamed bean-like taste. The umami is bold but balanced with an elegantly. To keep its delicate flavour at its best, store it in the fridge and enjoy it within two weeks after opening! Cultivar: Samidori Origin: Uji, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-samidori-ojatea-737574.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Samidori Fron - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  }
+]
+ GET / [32m200[39m in 148ms
+ [32m[1m✓[22m[39m Compiled / in 24ms
+endpoint  https://ojatea.myshopify.com/api/2025-10/graphql.json
+sanity env variable domain  [90mundefined[39m
+sanity env variable token  [90mundefined[39m
+Shopify domain: ojatea.myshopify.com
+Shopify token: ca37d211cb0739544aee6a00710dba7e
+products  [
+  {
+    id: [32m'gid://shopify/Product/8551293747412'[39m,
+    title: [32m'Organic Sencha Yabukita, 50g'[39m,
+    handle: [32m'sencha'[39m,
+    description: [32m'This Organic Sencha Yabukita green tea switched to plant-based fertilisers this year, bringing out a naturally soothing taste. Grown in a rich forest ecosystem, it has a subtle sweetness like fava beans and a hint of enoki mushroom flavour. It’s perfect for cold brewing in the fresh tea season, while a warm brew in late summer highlights its mellow, matured taste. Cultivated without pesticides and chemical fertilisers. Cultivar: Yabukita Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-yabukita-ojatea-408233.jpg?v=1749434744'[39m,
+      altText: [32m'Organic Sencha Yabukita - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8554743202004'[39m,
+    title: [32m'Organic Yabukita Gyokuro Green Tea, 30g'[39m,
+    handle: [32m'gyokuro-okunotsuyu'[39m,
+    description: [32m'This Organic Yabukita Gyokuro tea is crafted from 45-year-old Yabukita tea trees, shaded for 21 days before harvest to enhance its rich umami flavour. It’s the first harvest of the year 2024, offering a truly special and fresh tea experience. Cultivar: Yabukita Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-yabukita-gyokuro-gyokuro-green-tea-ojatea-398628.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Yabukita Gyokuro - gyokuro green tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8554744938708'[39m,
+    title: [32m'Organic Hojicha Bocha - Hojicha tea, 200g Bag'[39m,
+    handle: [32m'hojicha-bocha'[39m,
+    description: [32m'Organic Hojicha Bocha cultivated without pesticides and chemical fertilisers. This one-of-a-kind roasted tea is made from the thick stems of tea plants picked in spring before they bloom and in autumn after the summer harvest wraps up. Roasted over an open flame, it carries a subtle floral aroma beneath its smoky scent. Naturally caffeine-free and packed with vitamins and potassium, it’s a versatile tea that tastes amazing whether you enjoy it hot or cold—perfect for sipping after a meal. Cultivar: Yabukita Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-hojicha-bocha-hojicha-tea-ojatea-779006.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Hojicha Bocha - Hojicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8554749264084'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Midori'[39m,
+    handle: [32m'matcha-todo-mukashi'[39m,
+    description: [32m'This matcha blends Sayamamidori and Saemidori cultivars, grown without pesticides or chemical fertilisers. With a refreshing citrusy note, it’s perfect for everyday sipping. Store in the fridge and enjoy within 2 weeks of opening for the best flavour. Cultivar: Sayamamidori, Saemidori Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-midori-ojatea-661141.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Midori - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8558365212884'[39m,
+    title: [32m'Organic Sencha Yabukita Museshi, 50g'[39m,
+    handle: [32m'sencha-yabukita-musehi'[39m,
+    description: [32m'Yabukita cultivar green tea makes up nearly 80% of Japan’s green tea production, but this Organic Sencha Yabukita Museshi is grown without fertilisers, allowing its natural character to shine. By refining the soil and cultivation methods, its typically strong flavour is softened, revealing delicate jasmine-like floral notes and a rich, fruity depth. A hint of creamy sweetness adds a fresh new take on this classic variety. Cultivar: Yabukita Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-yabukita-museshi-ojatea-887695.jpg?v=1749434745'[39m,
+      altText: [32m'Organic Sencha Yabukita Museshi - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692216266964'[39m,
+    title: [32m'Organic Sencha Asatsuyu, 50g'[39m,
+    handle: [32m'sencha-asatsuyu'[39m,
+    description: [32m'This is the first harvest of the rare Organic Asatsuyu green tea cultivar from Uji, a tea that has nearly vanished from the market. Its fresh, fruity notes—reminiscent of muscat—shine through with every sip. Known as "natural Gyokuro," Asatsuyu is prized for its delicate sweetness and soothing aroma. Cultivated without pesticides and chemical fertilisers Cultivar: Asatsuyu Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-asatsuyu-ojatea-840578.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Sencha Asatsuyu - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692218331348'[39m,
+    title: [32m'Organic Sencha Okumidori Kabuse Musehi, 50g'[39m,
+    handle: [32m'sencha-okumidori-kabuse-musehi'[39m,
+    description: [32m'Organic Sencha Okumidori green tea stands out with its deep green leaves and bold tea flavor. Its cultivation has been expanding in recent years, and when grown under shade, it develops a unique Kabuse aroma. The result is a rich, long-lasting flavor with notes of white grape and a hint of nuttiness. Cultivated without pesticides and fertilisers. Cultivar: Okumidori Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-okumidori-kabuse-musehi-ojatea-396256.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Sencha Okumidori Kabuse Musehi - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692220854484'[39m,
+    title: [32m'Organic Kamairi Zairai - Kamairicha Green Tea, 50g'[39m,
+    handle: [32m'kamairi-zairai'[39m,
+    description: [32m'This tea comes from wild seedlings that have been growing in Gokase for nearly 90 years. It’s a tea-producing area 600–700 meters above sea level, where pan-roasted teas have been a tradition since the Edo period (1603–1868). The leaves are roasted in an iron pan to stop oxidation, giving it a dry, toasty vibe. You’ll catch hints of freshly baked bread in the aroma, a caramelised flavour, and a spicy kick of pepper in the aftertaste. Cultivar: Native species of Gokase in Miyazaki Prefecture Origin: Gokase, Miyazaki Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-kamairi-zairai-kamairicha-tea-ojatea-180064.jpg?v=1749434720'[39m,
+      altText: [32m'Organic Kamairi Zairai - Kamairicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692222984404'[39m,
+    title: [32m'Organic Kamairi Kanayamidori - Kamairicha green tea, 50g'[39m,
+    handle: [32m'kamairi-kanaya-midori'[39m,
+    description: [32m'This tea is crafted from the Yabukita and Shizuoka native varieties, offering unique flavour profile. With notes of freshly cooked rice, warm tortillas, and a subtle edamame-like sweetness. It strikes a perfect balance between rich roasted depth and gentle sweetness. Cultivar: Kanayamidori Origin: Gokase, Miyazaki Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-kamairi-minekaori-kamairicha-tea-ojatea-902727.jpg?v=1752371712'[39m,
+      altText: [32m'Organic Kamairi Minekaori - Kamairicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692223639764'[39m,
+    title: [32m'Organic Kamairi Minekaori - Kamairicha Green Tea, 50g'[39m,
+    handle: [32m'kamairi-minekaori'[39m,
+    description: [32m'The Minekaori cultivar, originally meant for gyokuro, carries the classic flavor of Yabukita. This year’s tea has a smooth, rounded taste with notes of corn and white rice. It finishes with a bold, spicy kick like hot pepper and a touch of herbal flavor that balances its sweetness. Its savory, wheat-like taste pairs perfectly with Western dishes—try it with buttered toast for a cozy morning treat! Cultivar: Minekaori Origin: Gokase, Miyazaki Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-kamairi-minekaori-kamairicha-tea-ojatea-902727.jpg?v=1752371712'[39m,
+      altText: [32m'Organic Kamairi Minekaori - Kamairicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692224196820'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Asatsuyu'[39m,
+    handle: [32m'matcha-asa'[39m,
+    description: [32m'A generous amount of rare Asatsuyu leaves is blended with Sayamamidori leaves to create something truly special. The umami-rich Asatsuyu balances out the acidity of organic matcha, making it perfect for special moments. To keep its delicate flavour at its best, store it in the fridge and enjoy it within 2 weeks after opening! Cultivar: Asatsuyu, Sayamamidori Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-asatsuyu-ojatea-388750.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Asatsuyu - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692224622804'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Samidori'[39m,
+    handle: [32m'matcha-samidori'[39m,
+    description: [32m'Samidori matcha, a classic Uji tea variety, was selected from Kyoto tea fields between 1926 and 1945 and has become a favorite ever since. It offers a fresh flavor with a hint of strawberry and a rich, steamed bean-like taste. The umami is bold but balanced with an elegantly. To keep its delicate flavour at its best, store it in the fridge and enjoy it within two weeks after opening! Cultivar: Samidori Origin: Uji, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-samidori-ojatea-737574.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Samidori Fron - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8835835298004'[39m,
+    title: [32m'Organic Sencha Green Tea Bags Selection'[39m,
+    handle: [32m'sencha-tea-bag-selection'[39m,
+    description: [32m'Made with organically grown Sencha green, this exclusive blend comes in tea bags crafted from 100% natural, biodegradable fibre—so you get a clean, toxin-free brew every time. CULTIVARS: Yabukita, Okumidori, Meiryoku ORIGIN: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-tea-bag-selection-ojatea-366876.jpg?v=1749434719'[39m,
+      altText: [32m'Organic Sencha Tea Bag Selection Front - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8867791831252'[39m,
+    title: [32m'Ceremonial Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'ceremonial-matcha'[39m,
+    description: [32m'Smooth umami with notes of scallion and soy milk, balanced by a hint of bitterness. Pairs beautifully with fresh pastries and dried fruits. Cultivars: Samidori, Okumidori Origin: Uji, Kyoto'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/ceremonial-matcha-ojatea-3335976.jpg?v=1752368712'[39m,
+      altText: [32m'Ceremonial matcha - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8870206800084'[39m,
+    title: [32m'Superior Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'superior-matcha'[39m,
+    description: [32m'Vibrant and smooth with umami depth. Ideal for creamy matcha lattes or enhancing desserts. A great choice for your daily treat. Cultivar: Yabukita Origin: Uji, Kyoto prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/superior-matcha-ojatea-4744269.jpg?v=1752028008'[39m,
+      altText: [32m'Superior Matcha - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8873113747668'[39m,
+    title: [32m'Premium Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'premium-matcha'[39m,
+    description: [32m'This premium stone-milled matcha blends bold umami finishing with a gentle bitterness. Perfectly balanced to shine through matcha latte. Enjoy with fresh pastries or dried fruits. Cultivar: Okumidori, Yabukita Origin: Uji, Kyoto prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/premium-matcha-ojatea-2331696.jpg?v=1752193921'[39m,
+      altText: [32m'Premium matcha - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8875256414420'[39m,
+    title: [32m'Culinary Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'culinary-matcha'[39m,
+    description: [32m'Bold, earthy flavour perfect for lattes, smoothies, and cooking. Cultivar: Yabukita Origin: Uji, Kyoto prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/culinary-matcha-limited-edition-ojatea-7344498.jpg?v=1752442391'[39m,
+      altText: [32m'Culinary Matcha (limited edition) - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8875264901332'[39m,
+    title: [32m'Hojicha Powder Dark Roast - 100g Bag'[39m,
+    handle: [32m'hojicha-powder-dark-roast'[39m,
+    description: [32m'With a naturally low in caffeine, even lower than light roast it’s perfect for cozy lattes, desserts, and baked goods. Origin: Uji, Kyoto prefecture Flavour: Deep smoky, nutty Caffeine: Very low'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/hojicha-powder-dark-roast-limited-edition-ojatea-6220026.jpg?v=1752442393'[39m,
+      altText: [32m'Hojicha Powder Dark Roast (limited edition) - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8875266080980'[39m,
+    title: [32m'Hojicha Powder Light Roast - 100g Bag'[39m,
+    handle: [32m'hojicha-powder-light-roast'[39m,
+    description: [32m'This hojicha tea powder is gently roasted with a balance of green tea brightness and subtle smokiness. It’s great for iced drinks and delicate desserts.'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/hojicha-powder-light-roast-limited-edition-ojatea-8686796.jpg?v=1752442391'[39m,
+      altText: [32m'Hojicha Powder Light Roast (limited edition) - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  }
+]
+campaign productIds [ [32m'8692224622804'[39m ]
+campaign campaignProducts [
+  {
+    id: [32m'gid://shopify/Product/8692224622804'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Samidori'[39m,
+    handle: [32m'matcha-samidori'[39m,
+    description: [32m'Samidori matcha, a classic Uji tea variety, was selected from Kyoto tea fields between 1926 and 1945 and has become a favorite ever since. It offers a fresh flavor with a hint of strawberry and a rich, steamed bean-like taste. The umami is bold but balanced with an elegantly. To keep its delicate flavour at its best, store it in the fridge and enjoy it within two weeks after opening! Cultivar: Samidori Origin: Uji, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-samidori-ojatea-737574.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Samidori Fron - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  }
+]
+ GET / [32m200[39m in 140ms
+ [32m[1m✓[22m[39m Compiled / in 23ms
+endpoint  https://ojatea.myshopify.com/api/2025-10/graphql.json
+sanity env variable domain  [90mundefined[39m
+sanity env variable token  [90mundefined[39m
+Shopify domain: ojatea.myshopify.com
+Shopify token: ca37d211cb0739544aee6a00710dba7e
+products  [
+  {
+    id: [32m'gid://shopify/Product/8551293747412'[39m,
+    title: [32m'Organic Sencha Yabukita, 50g'[39m,
+    handle: [32m'sencha'[39m,
+    description: [32m'This Organic Sencha Yabukita green tea switched to plant-based fertilisers this year, bringing out a naturally soothing taste. Grown in a rich forest ecosystem, it has a subtle sweetness like fava beans and a hint of enoki mushroom flavour. It’s perfect for cold brewing in the fresh tea season, while a warm brew in late summer highlights its mellow, matured taste. Cultivated without pesticides and chemical fertilisers. Cultivar: Yabukita Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-yabukita-ojatea-408233.jpg?v=1749434744'[39m,
+      altText: [32m'Organic Sencha Yabukita - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8554743202004'[39m,
+    title: [32m'Organic Yabukita Gyokuro Green Tea, 30g'[39m,
+    handle: [32m'gyokuro-okunotsuyu'[39m,
+    description: [32m'This Organic Yabukita Gyokuro tea is crafted from 45-year-old Yabukita tea trees, shaded for 21 days before harvest to enhance its rich umami flavour. It’s the first harvest of the year 2024, offering a truly special and fresh tea experience. Cultivar: Yabukita Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-yabukita-gyokuro-gyokuro-green-tea-ojatea-398628.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Yabukita Gyokuro - gyokuro green tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8554744938708'[39m,
+    title: [32m'Organic Hojicha Bocha - Hojicha tea, 200g Bag'[39m,
+    handle: [32m'hojicha-bocha'[39m,
+    description: [32m'Organic Hojicha Bocha cultivated without pesticides and chemical fertilisers. This one-of-a-kind roasted tea is made from the thick stems of tea plants picked in spring before they bloom and in autumn after the summer harvest wraps up. Roasted over an open flame, it carries a subtle floral aroma beneath its smoky scent. Naturally caffeine-free and packed with vitamins and potassium, it’s a versatile tea that tastes amazing whether you enjoy it hot or cold—perfect for sipping after a meal. Cultivar: Yabukita Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-hojicha-bocha-hojicha-tea-ojatea-779006.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Hojicha Bocha - Hojicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8554749264084'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Midori'[39m,
+    handle: [32m'matcha-todo-mukashi'[39m,
+    description: [32m'This matcha blends Sayamamidori and Saemidori cultivars, grown without pesticides or chemical fertilisers. With a refreshing citrusy note, it’s perfect for everyday sipping. Store in the fridge and enjoy within 2 weeks of opening for the best flavour. Cultivar: Sayamamidori, Saemidori Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-midori-ojatea-661141.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Midori - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8558365212884'[39m,
+    title: [32m'Organic Sencha Yabukita Museshi, 50g'[39m,
+    handle: [32m'sencha-yabukita-musehi'[39m,
+    description: [32m'Yabukita cultivar green tea makes up nearly 80% of Japan’s green tea production, but this Organic Sencha Yabukita Museshi is grown without fertilisers, allowing its natural character to shine. By refining the soil and cultivation methods, its typically strong flavour is softened, revealing delicate jasmine-like floral notes and a rich, fruity depth. A hint of creamy sweetness adds a fresh new take on this classic variety. Cultivar: Yabukita Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-yabukita-museshi-ojatea-887695.jpg?v=1749434745'[39m,
+      altText: [32m'Organic Sencha Yabukita Museshi - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692216266964'[39m,
+    title: [32m'Organic Sencha Asatsuyu, 50g'[39m,
+    handle: [32m'sencha-asatsuyu'[39m,
+    description: [32m'This is the first harvest of the rare Organic Asatsuyu green tea cultivar from Uji, a tea that has nearly vanished from the market. Its fresh, fruity notes—reminiscent of muscat—shine through with every sip. Known as "natural Gyokuro," Asatsuyu is prized for its delicate sweetness and soothing aroma. Cultivated without pesticides and chemical fertilisers Cultivar: Asatsuyu Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-asatsuyu-ojatea-840578.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Sencha Asatsuyu - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692218331348'[39m,
+    title: [32m'Organic Sencha Okumidori Kabuse Musehi, 50g'[39m,
+    handle: [32m'sencha-okumidori-kabuse-musehi'[39m,
+    description: [32m'Organic Sencha Okumidori green tea stands out with its deep green leaves and bold tea flavor. Its cultivation has been expanding in recent years, and when grown under shade, it develops a unique Kabuse aroma. The result is a rich, long-lasting flavor with notes of white grape and a hint of nuttiness. Cultivated without pesticides and fertilisers. Cultivar: Okumidori Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-okumidori-kabuse-musehi-ojatea-396256.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Sencha Okumidori Kabuse Musehi - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692220854484'[39m,
+    title: [32m'Organic Kamairi Zairai - Kamairicha Green Tea, 50g'[39m,
+    handle: [32m'kamairi-zairai'[39m,
+    description: [32m'This tea comes from wild seedlings that have been growing in Gokase for nearly 90 years. It’s a tea-producing area 600–700 meters above sea level, where pan-roasted teas have been a tradition since the Edo period (1603–1868). The leaves are roasted in an iron pan to stop oxidation, giving it a dry, toasty vibe. You’ll catch hints of freshly baked bread in the aroma, a caramelised flavour, and a spicy kick of pepper in the aftertaste. Cultivar: Native species of Gokase in Miyazaki Prefecture Origin: Gokase, Miyazaki Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-kamairi-zairai-kamairicha-tea-ojatea-180064.jpg?v=1749434720'[39m,
+      altText: [32m'Organic Kamairi Zairai - Kamairicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692222984404'[39m,
+    title: [32m'Organic Kamairi Kanayamidori - Kamairicha green tea, 50g'[39m,
+    handle: [32m'kamairi-kanaya-midori'[39m,
+    description: [32m'This tea is crafted from the Yabukita and Shizuoka native varieties, offering unique flavour profile. With notes of freshly cooked rice, warm tortillas, and a subtle edamame-like sweetness. It strikes a perfect balance between rich roasted depth and gentle sweetness. Cultivar: Kanayamidori Origin: Gokase, Miyazaki Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-kamairi-minekaori-kamairicha-tea-ojatea-902727.jpg?v=1752371712'[39m,
+      altText: [32m'Organic Kamairi Minekaori - Kamairicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692223639764'[39m,
+    title: [32m'Organic Kamairi Minekaori - Kamairicha Green Tea, 50g'[39m,
+    handle: [32m'kamairi-minekaori'[39m,
+    description: [32m'The Minekaori cultivar, originally meant for gyokuro, carries the classic flavor of Yabukita. This year’s tea has a smooth, rounded taste with notes of corn and white rice. It finishes with a bold, spicy kick like hot pepper and a touch of herbal flavor that balances its sweetness. Its savory, wheat-like taste pairs perfectly with Western dishes—try it with buttered toast for a cozy morning treat! Cultivar: Minekaori Origin: Gokase, Miyazaki Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-kamairi-minekaori-kamairicha-tea-ojatea-902727.jpg?v=1752371712'[39m,
+      altText: [32m'Organic Kamairi Minekaori - Kamairicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692224196820'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Asatsuyu'[39m,
+    handle: [32m'matcha-asa'[39m,
+    description: [32m'A generous amount of rare Asatsuyu leaves is blended with Sayamamidori leaves to create something truly special. The umami-rich Asatsuyu balances out the acidity of organic matcha, making it perfect for special moments. To keep its delicate flavour at its best, store it in the fridge and enjoy it within 2 weeks after opening! Cultivar: Asatsuyu, Sayamamidori Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-asatsuyu-ojatea-388750.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Asatsuyu - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692224622804'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Samidori'[39m,
+    handle: [32m'matcha-samidori'[39m,
+    description: [32m'Samidori matcha, a classic Uji tea variety, was selected from Kyoto tea fields between 1926 and 1945 and has become a favorite ever since. It offers a fresh flavor with a hint of strawberry and a rich, steamed bean-like taste. The umami is bold but balanced with an elegantly. To keep its delicate flavour at its best, store it in the fridge and enjoy it within two weeks after opening! Cultivar: Samidori Origin: Uji, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-samidori-ojatea-737574.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Samidori Fron - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8835835298004'[39m,
+    title: [32m'Organic Sencha Green Tea Bags Selection'[39m,
+    handle: [32m'sencha-tea-bag-selection'[39m,
+    description: [32m'Made with organically grown Sencha green, this exclusive blend comes in tea bags crafted from 100% natural, biodegradable fibre—so you get a clean, toxin-free brew every time. CULTIVARS: Yabukita, Okumidori, Meiryoku ORIGIN: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-tea-bag-selection-ojatea-366876.jpg?v=1749434719'[39m,
+      altText: [32m'Organic Sencha Tea Bag Selection Front - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8867791831252'[39m,
+    title: [32m'Ceremonial Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'ceremonial-matcha'[39m,
+    description: [32m'Smooth umami with notes of scallion and soy milk, balanced by a hint of bitterness. Pairs beautifully with fresh pastries and dried fruits. Cultivars: Samidori, Okumidori Origin: Uji, Kyoto'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/ceremonial-matcha-ojatea-3335976.jpg?v=1752368712'[39m,
+      altText: [32m'Ceremonial matcha - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8870206800084'[39m,
+    title: [32m'Superior Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'superior-matcha'[39m,
+    description: [32m'Vibrant and smooth with umami depth. Ideal for creamy matcha lattes or enhancing desserts. A great choice for your daily treat. Cultivar: Yabukita Origin: Uji, Kyoto prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/superior-matcha-ojatea-4744269.jpg?v=1752028008'[39m,
+      altText: [32m'Superior Matcha - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8873113747668'[39m,
+    title: [32m'Premium Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'premium-matcha'[39m,
+    description: [32m'This premium stone-milled matcha blends bold umami finishing with a gentle bitterness. Perfectly balanced to shine through matcha latte. Enjoy with fresh pastries or dried fruits. Cultivar: Okumidori, Yabukita Origin: Uji, Kyoto prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/premium-matcha-ojatea-2331696.jpg?v=1752193921'[39m,
+      altText: [32m'Premium matcha - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8875256414420'[39m,
+    title: [32m'Culinary Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'culinary-matcha'[39m,
+    description: [32m'Bold, earthy flavour perfect for lattes, smoothies, and cooking. Cultivar: Yabukita Origin: Uji, Kyoto prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/culinary-matcha-limited-edition-ojatea-7344498.jpg?v=1752442391'[39m,
+      altText: [32m'Culinary Matcha (limited edition) - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8875264901332'[39m,
+    title: [32m'Hojicha Powder Dark Roast - 100g Bag'[39m,
+    handle: [32m'hojicha-powder-dark-roast'[39m,
+    description: [32m'With a naturally low in caffeine, even lower than light roast it’s perfect for cozy lattes, desserts, and baked goods. Origin: Uji, Kyoto prefecture Flavour: Deep smoky, nutty Caffeine: Very low'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/hojicha-powder-dark-roast-limited-edition-ojatea-6220026.jpg?v=1752442393'[39m,
+      altText: [32m'Hojicha Powder Dark Roast (limited edition) - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8875266080980'[39m,
+    title: [32m'Hojicha Powder Light Roast - 100g Bag'[39m,
+    handle: [32m'hojicha-powder-light-roast'[39m,
+    description: [32m'This hojicha tea powder is gently roasted with a balance of green tea brightness and subtle smokiness. It’s great for iced drinks and delicate desserts.'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/hojicha-powder-light-roast-limited-edition-ojatea-8686796.jpg?v=1752442391'[39m,
+      altText: [32m'Hojicha Powder Light Roast (limited edition) - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  }
+]
+campaign productIds [ [32m'8692224622804'[39m ]
+campaign campaignProducts [
+  {
+    id: [32m'gid://shopify/Product/8692224622804'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Samidori'[39m,
+    handle: [32m'matcha-samidori'[39m,
+    description: [32m'Samidori matcha, a classic Uji tea variety, was selected from Kyoto tea fields between 1926 and 1945 and has become a favorite ever since. It offers a fresh flavor with a hint of strawberry and a rich, steamed bean-like taste. The umami is bold but balanced with an elegantly. To keep its delicate flavour at its best, store it in the fridge and enjoy it within two weeks after opening! Cultivar: Samidori Origin: Uji, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-samidori-ojatea-737574.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Samidori Fron - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  }
+]
+ GET / [32m200[39m in 120ms
+ [33m[1m⚠[22m[39m Found a change in next.config.ts. Restarting the server to apply the changes...
+   [1m[38;2;173;127;168m▲ Next.js 15.5.5[39m[22m (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.20.4:3000
+   - Environments: .env.local
+
+ [32m[1m✓[22m[39m Starting...
+ [32m[1m✓[22m[39m Ready in 884ms
+ [37m[1m○[22m[39m Compiling / ...
+ [32m[1m✓[22m[39m Compiled / in 1995ms
+endpoint  https://ojatea.myshopify.com/api/2025-10/graphql.json
+sanity env variable domain  [90mundefined[39m
+sanity env variable token  [90mundefined[39m
+Shopify domain: ojatea.myshopify.com
+Shopify token: ca37d211cb0739544aee6a00710dba7e
+products  [
+  {
+    id: [32m'gid://shopify/Product/8551293747412'[39m,
+    title: [32m'Organic Sencha Yabukita, 50g'[39m,
+    handle: [32m'sencha'[39m,
+    description: [32m'This Organic Sencha Yabukita green tea switched to plant-based fertilisers this year, bringing out a naturally soothing taste. Grown in a rich forest ecosystem, it has a subtle sweetness like fava beans and a hint of enoki mushroom flavour. It’s perfect for cold brewing in the fresh tea season, while a warm brew in late summer highlights its mellow, matured taste. Cultivated without pesticides and chemical fertilisers. Cultivar: Yabukita Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-yabukita-ojatea-408233.jpg?v=1749434744'[39m,
+      altText: [32m'Organic Sencha Yabukita - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8554743202004'[39m,
+    title: [32m'Organic Yabukita Gyokuro Green Tea, 30g'[39m,
+    handle: [32m'gyokuro-okunotsuyu'[39m,
+    description: [32m'This Organic Yabukita Gyokuro tea is crafted from 45-year-old Yabukita tea trees, shaded for 21 days before harvest to enhance its rich umami flavour. It’s the first harvest of the year 2024, offering a truly special and fresh tea experience. Cultivar: Yabukita Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-yabukita-gyokuro-gyokuro-green-tea-ojatea-398628.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Yabukita Gyokuro - gyokuro green tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8554744938708'[39m,
+    title: [32m'Organic Hojicha Bocha - Hojicha tea, 200g Bag'[39m,
+    handle: [32m'hojicha-bocha'[39m,
+    description: [32m'Organic Hojicha Bocha cultivated without pesticides and chemical fertilisers. This one-of-a-kind roasted tea is made from the thick stems of tea plants picked in spring before they bloom and in autumn after the summer harvest wraps up. Roasted over an open flame, it carries a subtle floral aroma beneath its smoky scent. Naturally caffeine-free and packed with vitamins and potassium, it’s a versatile tea that tastes amazing whether you enjoy it hot or cold—perfect for sipping after a meal. Cultivar: Yabukita Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-hojicha-bocha-hojicha-tea-ojatea-779006.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Hojicha Bocha - Hojicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8554749264084'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Midori'[39m,
+    handle: [32m'matcha-todo-mukashi'[39m,
+    description: [32m'This matcha blends Sayamamidori and Saemidori cultivars, grown without pesticides or chemical fertilisers. With a refreshing citrusy note, it’s perfect for everyday sipping. Store in the fridge and enjoy within 2 weeks of opening for the best flavour. Cultivar: Sayamamidori, Saemidori Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-midori-ojatea-661141.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Midori - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8558365212884'[39m,
+    title: [32m'Organic Sencha Yabukita Museshi, 50g'[39m,
+    handle: [32m'sencha-yabukita-musehi'[39m,
+    description: [32m'Yabukita cultivar green tea makes up nearly 80% of Japan’s green tea production, but this Organic Sencha Yabukita Museshi is grown without fertilisers, allowing its natural character to shine. By refining the soil and cultivation methods, its typically strong flavour is softened, revealing delicate jasmine-like floral notes and a rich, fruity depth. A hint of creamy sweetness adds a fresh new take on this classic variety. Cultivar: Yabukita Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-yabukita-museshi-ojatea-887695.jpg?v=1749434745'[39m,
+      altText: [32m'Organic Sencha Yabukita Museshi - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692216266964'[39m,
+    title: [32m'Organic Sencha Asatsuyu, 50g'[39m,
+    handle: [32m'sencha-asatsuyu'[39m,
+    description: [32m'This is the first harvest of the rare Organic Asatsuyu green tea cultivar from Uji, a tea that has nearly vanished from the market. Its fresh, fruity notes—reminiscent of muscat—shine through with every sip. Known as "natural Gyokuro," Asatsuyu is prized for its delicate sweetness and soothing aroma. Cultivated without pesticides and chemical fertilisers Cultivar: Asatsuyu Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-asatsuyu-ojatea-840578.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Sencha Asatsuyu - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692218331348'[39m,
+    title: [32m'Organic Sencha Okumidori Kabuse Musehi, 50g'[39m,
+    handle: [32m'sencha-okumidori-kabuse-musehi'[39m,
+    description: [32m'Organic Sencha Okumidori green tea stands out with its deep green leaves and bold tea flavor. Its cultivation has been expanding in recent years, and when grown under shade, it develops a unique Kabuse aroma. The result is a rich, long-lasting flavor with notes of white grape and a hint of nuttiness. Cultivated without pesticides and fertilisers. Cultivar: Okumidori Origin: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-okumidori-kabuse-musehi-ojatea-396256.jpg?v=1749434746'[39m,
+      altText: [32m'Organic Sencha Okumidori Kabuse Musehi - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692220854484'[39m,
+    title: [32m'Organic Kamairi Zairai - Kamairicha Green Tea, 50g'[39m,
+    handle: [32m'kamairi-zairai'[39m,
+    description: [32m'This tea comes from wild seedlings that have been growing in Gokase for nearly 90 years. It’s a tea-producing area 600–700 meters above sea level, where pan-roasted teas have been a tradition since the Edo period (1603–1868). The leaves are roasted in an iron pan to stop oxidation, giving it a dry, toasty vibe. You’ll catch hints of freshly baked bread in the aroma, a caramelised flavour, and a spicy kick of pepper in the aftertaste. Cultivar: Native species of Gokase in Miyazaki Prefecture Origin: Gokase, Miyazaki Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-kamairi-zairai-kamairicha-tea-ojatea-180064.jpg?v=1749434720'[39m,
+      altText: [32m'Organic Kamairi Zairai - Kamairicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692222984404'[39m,
+    title: [32m'Organic Kamairi Kanayamidori - Kamairicha green tea, 50g'[39m,
+    handle: [32m'kamairi-kanaya-midori'[39m,
+    description: [32m'This tea is crafted from the Yabukita and Shizuoka native varieties, offering unique flavour profile. With notes of freshly cooked rice, warm tortillas, and a subtle edamame-like sweetness. It strikes a perfect balance between rich roasted depth and gentle sweetness. Cultivar: Kanayamidori Origin: Gokase, Miyazaki Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-kamairi-minekaori-kamairicha-tea-ojatea-902727.jpg?v=1752371712'[39m,
+      altText: [32m'Organic Kamairi Minekaori - Kamairicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692223639764'[39m,
+    title: [32m'Organic Kamairi Minekaori - Kamairicha Green Tea, 50g'[39m,
+    handle: [32m'kamairi-minekaori'[39m,
+    description: [32m'The Minekaori cultivar, originally meant for gyokuro, carries the classic flavor of Yabukita. This year’s tea has a smooth, rounded taste with notes of corn and white rice. It finishes with a bold, spicy kick like hot pepper and a touch of herbal flavor that balances its sweetness. Its savory, wheat-like taste pairs perfectly with Western dishes—try it with buttered toast for a cozy morning treat! Cultivar: Minekaori Origin: Gokase, Miyazaki Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-kamairi-minekaori-kamairicha-tea-ojatea-902727.jpg?v=1752371712'[39m,
+      altText: [32m'Organic Kamairi Minekaori - Kamairicha tea - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692224196820'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Asatsuyu'[39m,
+    handle: [32m'matcha-asa'[39m,
+    description: [32m'A generous amount of rare Asatsuyu leaves is blended with Sayamamidori leaves to create something truly special. The umami-rich Asatsuyu balances out the acidity of organic matcha, making it perfect for special moments. To keep its delicate flavour at its best, store it in the fridge and enjoy it within 2 weeks after opening! Cultivar: Asatsuyu, Sayamamidori Origin: Asamiya, Shiga Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-asatsuyu-ojatea-388750.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Asatsuyu - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8692224622804'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Samidori'[39m,
+    handle: [32m'matcha-samidori'[39m,
+    description: [32m'Samidori matcha, a classic Uji tea variety, was selected from Kyoto tea fields between 1926 and 1945 and has become a favorite ever since. It offers a fresh flavor with a hint of strawberry and a rich, steamed bean-like taste. The umami is bold but balanced with an elegantly. To keep its delicate flavour at its best, store it in the fridge and enjoy it within two weeks after opening! Cultivar: Samidori Origin: Uji, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-samidori-ojatea-737574.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Samidori Fron - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8835835298004'[39m,
+    title: [32m'Organic Sencha Green Tea Bags Selection'[39m,
+    handle: [32m'sencha-tea-bag-selection'[39m,
+    description: [32m'Made with organically grown Sencha green, this exclusive blend comes in tea bags crafted from 100% natural, biodegradable fibre—so you get a clean, toxin-free brew every time. CULTIVARS: Yabukita, Okumidori, Meiryoku ORIGIN: Wazuka, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-sencha-tea-bag-selection-ojatea-366876.jpg?v=1749434719'[39m,
+      altText: [32m'Organic Sencha Tea Bag Selection Front - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8867791831252'[39m,
+    title: [32m'Ceremonial Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'ceremonial-matcha'[39m,
+    description: [32m'Smooth umami with notes of scallion and soy milk, balanced by a hint of bitterness. Pairs beautifully with fresh pastries and dried fruits. Cultivars: Samidori, Okumidori Origin: Uji, Kyoto'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/ceremonial-matcha-ojatea-3335976.jpg?v=1752368712'[39m,
+      altText: [32m'Ceremonial matcha - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8870206800084'[39m,
+    title: [32m'Superior Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'superior-matcha'[39m,
+    description: [32m'Vibrant and smooth with umami depth. Ideal for creamy matcha lattes or enhancing desserts. A great choice for your daily treat. Cultivar: Yabukita Origin: Uji, Kyoto prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/superior-matcha-ojatea-4744269.jpg?v=1752028008'[39m,
+      altText: [32m'Superior Matcha - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8873113747668'[39m,
+    title: [32m'Premium Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'premium-matcha'[39m,
+    description: [32m'This premium stone-milled matcha blends bold umami finishing with a gentle bitterness. Perfectly balanced to shine through matcha latte. Enjoy with fresh pastries or dried fruits. Cultivar: Okumidori, Yabukita Origin: Uji, Kyoto prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/premium-matcha-ojatea-2331696.jpg?v=1752193921'[39m,
+      altText: [32m'Premium matcha - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8875256414420'[39m,
+    title: [32m'Culinary Matcha from Uji, Limited Edition - 100g Bag'[39m,
+    handle: [32m'culinary-matcha'[39m,
+    description: [32m'Bold, earthy flavour perfect for lattes, smoothies, and cooking. Cultivar: Yabukita Origin: Uji, Kyoto prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/culinary-matcha-limited-edition-ojatea-7344498.jpg?v=1752442391'[39m,
+      altText: [32m'Culinary Matcha (limited edition) - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8875264901332'[39m,
+    title: [32m'Hojicha Powder Dark Roast - 100g Bag'[39m,
+    handle: [32m'hojicha-powder-dark-roast'[39m,
+    description: [32m'With a naturally low in caffeine, even lower than light roast it’s perfect for cozy lattes, desserts, and baked goods. Origin: Uji, Kyoto prefecture Flavour: Deep smoky, nutty Caffeine: Very low'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/hojicha-powder-dark-roast-limited-edition-ojatea-6220026.jpg?v=1752442393'[39m,
+      altText: [32m'Hojicha Powder Dark Roast (limited edition) - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  },
+  {
+    id: [32m'gid://shopify/Product/8875266080980'[39m,
+    title: [32m'Hojicha Powder Light Roast - 100g Bag'[39m,
+    handle: [32m'hojicha-powder-light-roast'[39m,
+    description: [32m'This hojicha tea powder is gently roasted with a balance of green tea brightness and subtle smokiness. It’s great for iced drinks and delicate desserts.'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/hojicha-powder-light-roast-limited-edition-ojatea-8686796.jpg?v=1752442391'[39m,
+      altText: [32m'Hojicha Powder Light Roast (limited edition) - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  }
+]
+campaign productIds [ [32m'8692224622804'[39m ]
+campaign campaignProducts [
+  {
+    id: [32m'gid://shopify/Product/8692224622804'[39m,
+    title: [32m'Organic Ceremonial Grade Matcha Samidori'[39m,
+    handle: [32m'matcha-samidori'[39m,
+    description: [32m'Samidori matcha, a classic Uji tea variety, was selected from Kyoto tea fields between 1926 and 1945 and has become a favorite ever since. It offers a fresh flavor with a hint of strawberry and a rich, steamed bean-like taste. The umami is bold but balanced with an elegantly. To keep its delicate flavour at its best, store it in the fridge and enjoy it within two weeks after opening! Cultivar: Samidori Origin: Uji, Kyoto Prefecture'[39m,
+    featuredImage: {
+      url: [32m'https://cdn.shopify.com/s/files/1/0708/4893/8196/files/organic-ceremonial-grade-matcha-samidori-ojatea-737574.jpg?v=1749434747'[39m,
+      altText: [32m'Organic Ceremonial Grade Matcha Samidori Fron - ojatea'[39m
+    },
+    priceRange: { minVariantPrice: [36m[Object][39m }
+  }
+]
+ GET / [32m200[39m in 3416ms
+ [32m[1m✓[22m[39m Compiled /favicon.ico in 189ms
+ GET /favicon.ico?favicon.0b3bf435.ico [32m200[39m in 481ms
+ [32m[1m✓[22m[39m Compiled /_not-found/page in 172ms
+ GET /sw.js [33m404[39m in 238ms
+ [33m[1m⚠[22m[39m Found a change in next.config.ts. Restarting the server to apply the changes...
+   [1m[38;2;173;127;168m▲ Next.js 15.5.5[39m[22m (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.20.4:3000
+   - Environments: .env.local
+
+ [32m[1m✓[22m[39m Starting...
+ [32m[1m✓[22m[39m Ready in 775ms
+[?25h
+[1G[0K⠙[1G[0K
