@@ -20,12 +20,9 @@ export function ShopifyProductSelector({value, onChange}: ShopifyProductSelector
     setLoading(false)
   }
 
-  function handleSelect(product: any) {
+  function handleSelect(product: EdgeNode) {
     onChange(
-      set({
-        shopifyProductId: product.id,
-        title: product.title,
-      }),
+        set({ id: product.id, title: product.title })
     )
   }
 
