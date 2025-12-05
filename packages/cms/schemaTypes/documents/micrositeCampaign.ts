@@ -47,8 +47,8 @@ export const micrositeCampaign = defineType({
               title: 'Shopify Product',
               type: 'object',
               fields: [
-                { name: 'id', title: 'Product ID', type: 'string' },
-                { name: 'title', title: 'Title', type: 'string' },
+                {name: 'id', title: 'Product ID', type: 'string'},
+                {name: 'title', title: 'Title', type: 'string'},
               ],
               components: {
                 input: ShopifyProductSelector,
@@ -65,7 +65,7 @@ export const micrositeCampaign = defineType({
               title: 'shopifyProductId.title',
               subtitle: 'shopifyProductId.id',
             },
-            prepare({ title, subtitle }) {
+            prepare({title, subtitle}) {
               return {
                 title: title || subtitle || 'Untitled product',
                 subtitle: subtitle ? `Shopify: ${subtitle}` : undefined,

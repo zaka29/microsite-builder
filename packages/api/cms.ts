@@ -1,11 +1,12 @@
-import { createClient } from "@sanity/client";
+import {createClient} from '@sanity/client'
 
 export const cmsClient = createClient({
   projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!,
-  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || "production",
-  apiVersion: "2025-01-01",
-  useCdn: true,
-});
+  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || 'production',
+  apiVersion: '2025-01-01',
+  useCdn: false,
+  token: process.env.SANITY_WRITE_TOKEN,
+})
 
 export async function getCampaignBySlug(slug: string) {
   const query = `
@@ -18,6 +19,6 @@ export async function getCampaignBySlug(slug: string) {
         title
       }
     }
-  `;
-  return await cmsClient.fetch(query, { slug });
+  `
+  return await cmsClient.fetch(query, {slug})
 }

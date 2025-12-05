@@ -1,23 +1,18 @@
-import { getProducts, getProductsByIds } from "api/shopify";
-import { getCampaignBySlug } from "api/cms";
-import Image from "next/image";
+import {getProductsByIds} from 'api/shopify'
+import {getCampaignBySlug} from 'api/cms'
+import Image from 'next/image'
 
 export default async function Home() {
-  const products = await getProducts();
-  const campaign = await getCampaignBySlug("matcha-2025");
-  const productIds = campaign?.products?.map((p) => p.shopifyProductId) || [];
-  const campaignProducts = await getProductsByIds(productIds);
-
-  console.log("products ", products);
-  console.log("campaign productIds", productIds);
-  console.log("campaign campaignProducts", campaignProducts);
+  const campaign = await getCampaignBySlug('matcha-2025')
+  const productIds = campaign?.products?.map((p) => p.shopifyProductId.id) || []
+  const campaignProducts = await getProductsByIds(productIds)
 
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <h1 className="text-3xl font-bold mb-6">Featured Products</h1>
+      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+        <h1 className="text-3xl font-bold mb-6">Campaign {campaign.title}</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {products.map((product) => {
+          {campaignProducts.map((product) => {
             return (
               <div
                 key={product.id}
@@ -33,11 +28,9 @@ export default async function Home() {
                   />
                 )}
                 <h2 className="text-xl font-semibold mb-2">{product.title}</h2>
-                <p className="text-gray-600 mb-4 text-sm">
-                  {product.description}
-                </p>
+                <p className="text-gray-600 mb-4 text-sm">{product.description}</p>
               </div>
-            );
+            )
           })}
         </div>
       </main>
@@ -48,13 +41,7 @@ export default async function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
+          <Image aria-hidden src="/window.svg" alt="Window icon" width={16} height={16} />
           Footer link with image
         </a>
         <a
@@ -63,16 +50,10 @@ export default async function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
+          <Image aria-hidden src="/globe.svg" alt="Globe icon" width={16} height={16} />
           Footer link with image 2
         </a>
       </footer>
     </div>
-  );
+  )
 }

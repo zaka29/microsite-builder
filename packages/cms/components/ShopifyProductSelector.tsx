@@ -21,9 +21,7 @@ export function ShopifyProductSelector({value, onChange}: ShopifyProductSelector
   }
 
   function handleSelect(product: EdgeNode) {
-    onChange(
-        set({ id: product.id, title: product.title })
-    )
+    onChange(set({id: product.id, title: product.title}))
   }
 
   console.log('results ', results)

@@ -9,7 +9,7 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "turbo run dev --filter=microsite-template --filter=cms",
+    "dev": "turbo run dev --filter=microsite-template --filter=cms --filter=dashboard",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
