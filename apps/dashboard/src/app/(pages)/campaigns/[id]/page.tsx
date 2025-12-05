@@ -1,7 +1,7 @@
 'use client'
 
 import {useState} from 'react'
-import {Button} from '../../components/ui/button'
+import {Button} from 'apps/dashboard/src/app/components/ui/button'
 export default function CampaignForm({campaign}) {
   const [title, setTitle] = useState(campaign?.title || '')
   const [slug, setSlug] = useState(campaign?.slug?.current || '')

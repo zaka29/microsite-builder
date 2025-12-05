@@ -2,18 +2,12 @@
 > microsite-template@0.1.0 dev
 > next dev --turbopack
 
-[1G[0K [33m[1m⚠[22m[39m Port 3000 is in use by process 47335, using available port 3001 instead.
-   [1m[38;2;173;127;168m▲ Next.js 15.5.5[39m[22m (Turbopack)
-   - Local:        http://localhost:3001
-   - Network:      http://192.168.20.4:3001
+[1G[0K   [1m[38;2;173;127;168m▲ Next.js 15.5.5[39m[22m (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.20.4:3000
    - Environments: .env.local
 
  [32m[1m✓[22m[39m Starting...
- [32m[1m✓[22m[39m Ready in 928ms
- [37m[1m○[22m[39m Compiling / ...
- [32m[1m✓[22m[39m Compiled / in 2s
- GET / [32m200[39m in 3889ms
- [32m[1m✓[22m[39m Compiled /favicon.ico in 150ms
- GET /favicon.ico?favicon.0b3bf435.ico [32m200[39m in 423ms
+ [32m[1m✓[22m[39m Ready in 693ms
 [?25h
 [1G[0K⠙[1G[0K
