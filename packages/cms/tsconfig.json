@@ -5,7 +5,11 @@
     "forceConsistentCasingInFileNames": true,
     "moduleDetection": "force",
     "jsx": "preserve",
-    "incremental": true
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@sanity/icons": ["./components/icons/PlaceholderIcons.tsx"]
+    }
   },
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
