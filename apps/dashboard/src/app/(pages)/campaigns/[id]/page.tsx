@@ -1,49 +1,42 @@
-'use client'
+import {sanity} from '../../../libs/sanity'
+import {CampaignEditForm} from '../../../components/CampaignEditForm'
 
-import {useState} from 'react'
-import {Button} from 'apps/dashboard/src/app/components/ui/button'
-export default function CampaignForm({campaign}) {
-  const [title, setTitle] = useState(campaign?.title || '')
-  const [slug, setSlug] = useState(campaign?.slug?.current || '')
-  const [description, setDescription] = useState(campaign?.description || '')
+interface PageProps {
+  params: Promise<{id: string}>
+}
 
-  async function handleSubmit() {
-    await fetch('/api/campaigns', {
-      method: 'POST',
-      body: JSON.stringify({
-        id: campaign?._id,
-        title,
-        slug,
-        description,
-      }),
-    })
+export default async function EditCampaignPage({params}: PageProps) {
+  const {id} = await params
 
-    alert('Saved!')
+  // Fetch campaign data
+  const campaign = await sanity.fetch(
+    `*[_type == "micrositeCampaign" && _id == $id][0]{
+      _id,
+      title,
+      slug,
+      description,
+      heroImage{
+        asset->{
+          _id,
+          url
+        }
+      },
+      products,
+      isPublished
+    }`,
+    {id},
+  )
+
+  if (!campaign) {
+    return (
+      <div className="min-h-screen p-8">
+        <div className="max-w-3xl mx-auto">
+          <h1 className="text-3xl font-bold mb-8">Campaign not found</h1>
+          <p className="text-muted-foreground">The campaign you're looking for doesn't exist.</p>
+        </div>
+      </div>
+    )
   }
 
-  return (
-    <div className="space-y-4">
-      <input
-        className="input"
-        value={title}
-        onChange={(e) => setTitle(e.target.value)}
-        placeholder="Title"
-      />
-      <input
-        className="input"
-        value={slug}
-        onChange={(e) => setSlug(e.target.value)}
-        placeholder="Slug"
-      />
-      <textarea
-        className="textarea"
-        value={description}
-        onChange={(e) => setDescription(e.target.value)}
-      />
-
-      <Button variant="default" onClick={handleSubmit}>
-        Save
-      </Button>
-    </div>
-  )
+  return <CampaignEditForm campaign={campaign} />
 }
